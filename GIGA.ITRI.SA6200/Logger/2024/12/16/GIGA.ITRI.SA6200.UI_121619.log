@@ -1,0 +1,8 @@
+19:15:34.933 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.12.2.1 ============
+19:19:04.033 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.12.2.1 ============
+19:19:06.039 [E] SvcMainViewModel(Init)[1] : 시퀀스에 요소가 없습니다. => System.InvalidOperationException: 시퀀스에 요소가 없습니다.
+   위치: System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   위치: GIGA.ITRI.SA6200.UI.ViewModels.Page.Service.SvcMainViewModel.Init() 파일 C:\000.Source\GIGA.ITRI.SA6200\GIGA.ITRI.SA6200.UI\ViewModels\Page\Service\SvcMainViewModel.cs:줄 62
+19:21:00.081 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.12.2.1 ============
+19:21:50.626 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.12.2.1 ============
+19:23:18.968 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.12.2.1 ============

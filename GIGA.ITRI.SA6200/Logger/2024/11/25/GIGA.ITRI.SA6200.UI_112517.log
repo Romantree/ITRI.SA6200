@@ -1,0 +1,16 @@
+17:21:08.918 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.11.25.1 ============
+17:26:25.712 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.11.25.1 ============
+17:29:54.042 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.11.25.1 ============
+17:30:11.911 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.11.25.1 ============
+17:33:44.031 [I] DeviceManager(SetRollPressScale)[1] : Roll Gap Press Scale : 0 = 0.001
+17:33:44.032 [I] DeviceManager(SetDemoldScale)[1] : Demold Scale : 0 = 0.001
+17:33:54.718 [I] DeviceManager(SetRollPressScale)[1] : Roll Gap Press Scale : 0 = 0.001
+17:33:54.718 [I] DeviceManager(SetDemoldScale)[1] : Demold Scale : 0 = 0.001
+17:40:08.638 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.11.25.1 ============
+17:56:25.968 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.11.25.1 ============
+17:57:07.178 [I] DeviceManager(SetRollPressScale)[1] : Roll Gap Press Scale : 0 = 0.001
+17:57:07.179 [I] DeviceManager(SetDemoldScale)[1] : Demold Scale : 0 = 0.001
+17:57:11.457 [I] DeviceManager(SetRollPressScale)[1] : Roll Gap Press Scale : 0 = 0.001
+17:57:11.457 [I] DeviceManager(SetDemoldScale)[1] : Demold Scale : 0 = 0.001
+17:57:15.422 [I] DeviceManager(SetRollPressScale)[1] : Roll Gap Press Scale : 0 = 0.001
+17:57:15.422 [I] DeviceManager(SetDemoldScale)[1] : Demold Scale : 0 = 0.001

@@ -1,0 +1,10 @@
+16:38:31.617 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+16:38:44.621 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+16:38:54.775 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+16:39:43.547 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?
+16:39:53.024 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the imprint operation?
+16:39:54.410 [I] EventManager(Event_OnInterlockMsgEvent)[1] : Cannot start from the current position.\r\nPlease move to the Ready position and try again
+16:39:59.459 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the imprint operation?
+16:40:31.384 [I] EventManager(Event_OnInterlockMsgEvent)[1] : Cannot start from the current position.\r\nPlease move to the Ready position and try again
+16:58:27.085 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?

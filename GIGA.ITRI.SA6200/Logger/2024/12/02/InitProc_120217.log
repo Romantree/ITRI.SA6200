@@ -1,0 +1,19 @@
+17:00:51.252 [I] InitProc(SetProcMsg)[20] : ================= Start Process =================
+17:00:51.563 [I] InitProc(SetProcMsg)[20] : UV CYLINDER UP Enter
+17:00:51.641 [I] InitProc(SetProcMsg)[20] : UV CYLINDER UP
+17:00:52.185 [I] InitProc(SetProcMsg)[20] : Motion Home Enter (StageX, RollGapRight, RollGapLeft, Demold)
+17:00:53.272 [I] InitProc(SetProcMsg)[20] : Motion Home (StageX, RollGapRight, RollGapLeft, Demold)
+17:00:53.350 [I] InitProc(SetProcMsg)[20] : Motion Software Limit Enter
+17:00:53.505 [I] InitProc(SetProcMsg)[20] : ================= End Process =================
+17:05:46.868 [I] InitProc(SetProcMsg)[22] : ================= Start Process =================
+17:05:47.740 [I] InitProc(SetProcMsg)[22] : Motion Home Enter (StageX, RollGapRight, RollGapLeft, Demold)
+17:05:48.826 [I] InitProc(SetProcMsg)[22] : Motion Home (StageX, RollGapRight, RollGapLeft, Demold)
+17:05:48.903 [I] InitProc(SetProcMsg)[22] : Motion Software Limit Enter
+17:05:49.056 [I] InitProc(SetProcMsg)[22] : ================= End Process =================
+17:06:25.139 [I] InitProc(SetProcMsg)[13] : ================= Start Process =================
+17:06:25.763 [I] InitProc(SetProcMsg)[13] : Motion Servo On Enter (StageX, StageXSlave, RollGapRight, RollGapLeft, Demold)
+17:06:25.841 [I] InitProc(SetProcMsg)[13] : Motion Servo On (StageX, StageXSlave, RollGapRight, RollGapLeft, Demold)
+17:06:26.079 [I] InitProc(SetProcMsg)[13] : Motion Home Enter (StageX, RollGapRight, RollGapLeft, Demold)
+17:06:27.170 [I] InitProc(SetProcMsg)[13] : Motion Home (StageX, RollGapRight, RollGapLeft, Demold)
+17:06:27.248 [I] InitProc(SetProcMsg)[13] : Motion Software Limit Enter
+17:06:27.405 [I] InitProc(SetProcMsg)[13] : ================= End Process =================

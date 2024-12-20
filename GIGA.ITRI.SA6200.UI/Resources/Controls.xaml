@@ -1,0 +1,369 @@
+﻿<ResourceDictionary xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:ts="clr-namespace:TS.FW.Wpf.Controls;assembly=TS.FW.Wpf"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+
+    <Style x:Key="xMainView" TargetType="Window">
+        <Setter Property="Title" Value="GIGA FA6300"/>
+        <Setter Property="WindowStyle" Value="None"/>
+        <Setter Property="WindowState" Value="Normal"/>
+        <Setter Property="ResizeMode" Value="NoResize"/>
+        <Setter Property="ShowInTaskbar" Value="True"/>
+        <Setter Property="AllowsTransparency" Value="True"/>
+        <Setter Property="Background" Value="Black"/>
+
+        <Setter Property="Left" Value="0"/>
+        <Setter Property="Top" Value="0"/>
+        <Setter Property="Width" Value="1280"/>
+        <Setter Property="Height" Value="1024"/>
+    </Style>
+
+    <Style x:Key="xPageMain" TargetType="UserControl">
+        <Setter Property="Width" Value="1276"/>
+        <Setter Property="Height" Value="822"/>
+    </Style>
+
+    <Style x:Key="xPageSub" TargetType="UserControl">
+        <Setter Property="Width" Value="1166"/>
+        <Setter Property="Height" Value="814"/>
+    </Style>
+
+    <Style x:Key="xPopupWindow" TargetType="{x:Type Window}">
+        <Setter Property="WindowStyle" Value="None"/>
+        <Setter Property="WindowState" Value="Normal"/>
+        <Setter Property="ResizeMode" Value="NoResize"/>
+        <Setter Property="ShowInTaskbar" Value="False"/>
+        <Setter Property="Topmost" Value="True"/>
+    </Style>
+
+    <Style x:Key="xBdrTitle" TargetType="{x:Type ts:Border3D}">
+        <Setter Property="Margin" Value="2 1"/>
+        <Setter Property="CornerRadius" Value="5"/>
+    </Style>
+
+    <Style x:Key="xLabState" TargetType="{x:Type ts:Label3D}">
+        <Setter Property="Margin" Value="2 3"/>
+        <Setter Property="CornerRadius" Value="4"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="IsPressed" Value="True"/>
+        <Setter Property="Background" Value="{StaticResource xLogBack}"/>
+    </Style>
+
+
+    <!--DashMainView Font 추가-->
+    <Style x:Key="xDashMainLabState" TargetType="{x:Type ts:Label3D}">
+        <Setter Property="Margin" Value="2 3"/>
+        <Setter Property="CornerRadius" Value="4"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="IsPressed" Value="True"/>
+        <Setter Property="Background" Value="{StaticResource xLogBack}"/>
+    </Style>
+
+
+    <Style x:Key="xLabCaption" TargetType="{x:Type ts:Label3D}">
+        <Setter Property="Margin" Value="2"/>
+        <Setter Property="CornerRadius" Value="2"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="IsPressed" Value="False"/>
+        <Setter Property="Background" Value="{StaticResource xTitleBack}"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+    </Style>
+    
+
+    <Style x:Key="xLabValue" TargetType="{x:Type ts:Label3D}">
+        <Setter Property="Margin" Value="2"/>
+        <Setter Property="CornerRadius" Value="2"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="IsPressed" Value="True"/>
+        <Setter Property="Background" Value="{StaticResource xLogBack}"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+    </Style>
+
+    <Style x:Key="xBtnIcon" TargetType="{x:Type ts:Button3D}">
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Margin" Value="2"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="HorizontalIconAlignment" Value="Center"/>
+        <Setter Property="VerticalIconAlignment" Value="Top"/>
+        <Setter Property="IconMargin" Value="0 15"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Bottom"/>
+        <Setter Property="ContentMargin" Value="0 5"/>
+        <Setter Property="Background" Value="{StaticResource xBtnBack}"/>
+        <Setter Property="Foreground" Value="{StaticResource xBtnFont}"/>
+        <Setter Property="Command" Value="{Binding}"/>
+    </Style>
+
+    <!--셋업 버튼 추가-->
+    <Style x:Key="xSetUpMotionBtnEvent" TargetType="{x:Type ts:Button3D}">
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Margin" Value="2"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Background" Value="{StaticResource xBtnBack}"/>
+        <Setter Property="Foreground" Value="{StaticResource xBtnFont}"/>
+        <Setter Property="Command" Value="{Binding}"/>
+        <Setter Property="CommandParameter" Value="{Binding RelativeSource={RelativeSource Mode=Self}, Path=Content}"/>
+    </Style>
+
+            <!--추가-->
+    <Style x:Key="xSvcBtnEvent" TargetType="{x:Type ts:Button3D}">
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Margin" Value="2"/>
+        <Setter Property="FontSize" Value="17"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Background" Value="{StaticResource xBtnBack}"/>
+        <Setter Property="Foreground" Value="{StaticResource xBtnFont}"/>
+        <Setter Property="Command" Value="{Binding}"/>
+        <Setter Property="CommandParameter" Value="{Binding RelativeSource={RelativeSource Mode=Self}, Path=Content}"/>
+    </Style>
+    <Style x:Key="xBtnEvent" TargetType="{x:Type ts:Button3D}">
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Margin" Value="2"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Background" Value="{StaticResource xBtnBack}"/>
+        <Setter Property="Foreground" Value="{StaticResource xBtnFont}"/>
+        <Setter Property="Command" Value="{Binding}"/>
+        <Setter Property="CommandParameter" Value="{Binding RelativeSource={RelativeSource Mode=Self}, Path=Content}"/>
+    </Style>
+
+    <Style x:Key="xRtnEvent" TargetType="{x:Type ts:RadioButton3D}">
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Margin" Value="2"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="IconSize" Value="0"/>
+        <Setter Property="Background" Value="{StaticResource xBtnBack}"/>
+        <Setter Property="Foreground" Value="{StaticResource xBtnFont}"/>
+        <Setter Property="Command" Value="{Binding}"/>
+        <Setter Property="CommandParameter" Value="{Binding RelativeSource={RelativeSource Mode=Self}, Path=Content}"/>
+    </Style>
+
+    <Style x:Key="xRtnEvent2" TargetType="{x:Type ts:RadioButton3D}" BasedOn="{StaticResource xRtnEvent}">
+        <Setter Property="Foreground" Value="{Binding RelativeSource={RelativeSource Mode=Self}, Path=IsChecked, Converter={StaticResource xOnOffColor}, ConverterParameter=MENU}"/>
+    </Style>
+
+
+   <!--추가-->
+    <Style x:Key="xRcpMainBtnValue" TargetType="{x:Type ts:Button3D}">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Margin" Value="2"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Background" Value="LightGray"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Command" Value="{Binding}"/>
+        <Setter Property="CommandParameter" Value="{Binding RelativeSource={RelativeSource Mode=Self}, Path=Content}"/>
+    </Style>
+    <Style x:Key="xBtnValue" TargetType="{x:Type ts:Button3D}">
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Margin" Value="2"/>
+        <Setter Property="CornerRadius" Value="5"/>
+        <Setter Property="Background" Value="LightGray"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="Command" Value="{Binding}"/>
+        <Setter Property="CommandParameter" Value="{Binding RelativeSource={RelativeSource Mode=Self}, Path=Content}"/>
+    </Style>
+
+    <!-- -추가 -->
+    <Style x:Key="xCbxValue" TargetType="{x:Type ts:ComboButton3D}">
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Margin" Value="2"/>
+        <Setter Property="CornerRadius" Value="2"/>
+        <Setter Property="Background" Value="LightGray"/>
+        <Setter Property="Foreground" Value="Black"/>
+        <Setter Property="IconSize" Value="10"/>
+    </Style>
+
+    <Style x:Key="xbtnMenuBase" TargetType="{x:Type ts:ToggleButton3D}">
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Margin" Value="2"/>
+        <Setter Property="CornerRadius" Value="4"/>
+        <Setter Property="HorizontalIconAlignment" Value="Center"/>
+        <Setter Property="VerticalIconAlignment" Value="Top"/>
+        <Setter Property="IconMargin" Value="0 15"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Bottom"/>
+        <Setter Property="ContentMargin" Value="0 5"/>
+        <Setter Property="Background" Value="{StaticResource xBtnBack}"/>
+        <Setter Property="Foreground" Value="{Binding IsSelect, Converter={StaticResource xOnOffColor}, ConverterParameter=MENU}"/>
+        <Setter Property="Icon" Value="Custom"/>
+        <Setter Property="Visual" Value="{Binding Visual, Mode=OneWay}"/>
+    </Style>
+
+    <Style x:Key="xbtnMenu" TargetType="{x:Type ts:ToggleButton3D}" BasedOn="{StaticResource xbtnMenuBase}">
+        <Setter Property="Width" Value="110"/>
+    </Style>
+
+    <Style x:Key="xbtnMenuSub" TargetType="{x:Type ts:ToggleButton3D}" BasedOn="{StaticResource xbtnMenuBase}">
+        <Setter Property="Height" Value="80"/>
+    </Style>
+
+    <Style x:Key="xMenuSub" TargetType="{x:Type ts:MenuList}">
+        <Setter Property="Margin" Value="5 2 5 3"/>
+        <Setter Property="Orientation" Value="Vertical"/>
+        <Setter Property="ItemsSource"  Value="{Binding MenuList}"/>
+        <Setter Property="SelectedMenu" Value="{Binding SelectedMenu}"/>
+        <Setter Property="MenuStyle" Value="{StaticResource xbtnMenuSub}"/>
+    </Style>
+
+    <Style x:Key="xBntMode" TargetType="{x:Type ts:OnOffControl}">
+        <Setter Property="BntMode" Value="True"/>
+        <Setter Property="Margin" Value="2"/>
+        <Setter Property="CornerRadius" Value="2"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Background" Value="Red"/>
+        <Setter Property="ContentColor" Value="Green"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+    </Style>
+
+    <Style x:Key="xDataGrid" TargetType="DataGrid">
+        <Setter Property="Background" Value="#CECECE"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="GridLinesVisibility" Value="None"/>
+        <Setter Property="SelectionMode" Value="Single"/>
+        <Setter Property="SelectionUnit" Value="FullRow"/>
+        <Setter Property="AutoGenerateColumns" Value="False"/>
+        <Setter Property="CanUserAddRows" Value="False"/>
+        <Setter Property="CanUserDeleteRows" Value="False"/>
+        <Setter Property="CanUserReorderColumns" Value="False"/>
+        <Setter Property="CanUserResizeColumns" Value="False"/>
+        <Setter Property="CanUserResizeRows" Value="False"/>
+        <Setter Property="CanUserSortColumns" Value="False"/>
+        <Setter Property="AlternationCount" Value="2"/>
+        <Setter Property="RowStyle">
+            <Setter.Value>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Margin" Value="2"/>
+                    <Style.Triggers>
+                        <Trigger Property="ItemsControl.AlternationIndex" Value="0">
+                            <Setter Property="Background" Value="{StaticResource xTitleBack}"/>
+                        </Trigger>
+                        <Trigger Property="ItemsControl.AlternationIndex" Value="1">
+                            <Setter Property="Background" Value="DarkSlateBlue"/>
+                        </Trigger>
+                        <Trigger Property="IsSelected" Value="true">
+                            <Setter Property="Background" Value="DimGray"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="ColumnHeaderStyle">
+            <Setter.Value>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Height" Value="40"/>
+                    <Setter Property="BorderThickness" Value="1"/>
+                    <Setter Property="Background" Value="{StaticResource xBtnBack}"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    <Setter Property="Margin" Value="2"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Style>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="RowHeaderStyle">
+            <Setter.Value>
+                <Style TargetType="DataGridRowHeader">
+                    <Setter Property="Width" Value="0"/>
+                </Style>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="CellStyle">
+            <Setter.Value>
+                <Style TargetType="DataGridCell">
+                    <Setter Property="Height" Value="35"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="FontSize" Value="12"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="true">
+                            <Setter Property="Background" Value="{x:Null}"/>
+                            <Setter Property="BorderThickness" Value="0"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="xDataGridHisotry" TargetType="DataGrid" BasedOn="{StaticResource xDataGrid}">
+        <Setter Property="ColumnHeaderStyle">
+            <Setter.Value>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Height" Value="32"/>
+                    <Setter Property="BorderThickness" Value="1"/>
+                    <Setter Property="Background" Value="{StaticResource xBtnBack}"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    <Setter Property="Margin" Value="2"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Style>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="CellStyle">
+            <Setter.Value>
+                <Style TargetType="DataGridCell">
+                    <Setter Property="Height" Value="30"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="FontSize" Value="12"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="true">
+                            <Setter Property="Background" Value="{x:Null}"/>
+                            <Setter Property="BorderThickness" Value="0"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <Style x:Key="xGridText" TargetType="TextBlock">
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+    </Style>
+
+    <DataTemplate x:Key="xTempValue">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <ts:Label3D Grid.Row="0" Grid.Column="0" Style="{StaticResource xLabCaption}" Content="측정값"/>
+            <ts:Label3D Grid.Row="0" Grid.Column="2" Style="{StaticResource xLabCaption}" Content="조작량"/>
+            <ts:Label3D Grid.Row="1" Grid.Column="0" Style="{StaticResource xLabCaption}" Content="Setting"/>
+            <ts:Label3D Grid.Row="2" Grid.Column="0" Style="{StaticResource xLabCaption}" Content="설정값"/>
+            <ts:Label3D Grid.Row="3" Grid.Column="0" Style="{StaticResource xLabCaption}" Content="Heater Run"/>
+
+            <ts:Label3D Grid.Row="0" Grid.Column="1" Style="{StaticResource xLabValue}" Content="{Binding CH1.CurrentValue}"/>
+            <ts:Label3D Grid.Row="0" Grid.Column="3" Style="{StaticResource xLabValue}" Content="{Binding CH1.HeatingMV}" ContentStringFormat="{}{0}%"/>
+            <ts:Label3D Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Style="{StaticResource xLabValue}" Content="{Binding CH1.CurSetValue}"/>
+            <ts:Button3D Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Style="{StaticResource xBtnValue}" Content="{Binding SettingValue}" CommandParameter="SettingValue"/>
+            <ts:Button3D Grid.Row="1" Grid.RowSpan="2" Grid.Column="3" Style="{StaticResource xBtnEvent}" Content="SET" Command="{Binding OnSettingCmd}"/>
+            <ts:Label3D Grid.Row="3" Grid.Column="1" Style="{StaticResource xLabValue}" Content="{Binding IsHeaterRun, Converter={StaticResource xString}, ConverterParameter=ON/OFF}"/>
+            <ts:Button3D Grid.Row="3" Grid.Column="2" Style="{StaticResource xBtnEvent}" Content="RUN" Background="Green" Command="{Binding OnHeaterOnCmd}"/>
+            <ts:Button3D Grid.Row="3" Grid.Column="3" Style="{StaticResource xBtnEvent}" Content="STOP" Background="Red" Command="{Binding OnHeaterOffCmd}"/>
+        </Grid>
+    </DataTemplate>
+</ResourceDictionary>

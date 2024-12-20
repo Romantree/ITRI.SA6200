@@ -1,0 +1,14 @@
+11:10:26.456 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+11:11:07.696 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+11:15:18.294 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] :  The Stage is not in the ready position.
+ Would you like to perform the film loading operation ?
+11:18:57.657 [I] EventManager(Event_OnInterlockMsgEvent)[1] : The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetRequlator] => System.Exception: The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetRequlator]
+   위치: GIGA.ITRI.SA6200.UI.Managers.NetManager.Start(INetSerialPort net, NetworkUnit unit) 파일 C:\000.Source\GIGA.ITRI.SA6200\GIGA.ITRI.SA6200.UI\Managers\NetManager.cs:줄 66
+11:19:31.508 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+11:20:35.048 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to save the data?
+11:20:43.867 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+11:20:44.908 [I] EventManager(Event_OnInterlockMsgEvent)[1] : Cannot start from the current position.\r\nPlease move to the Ready position and try again
+11:20:51.107 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?
+11:21:25.006 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] :  The Stage is not in the ready position.
+ Would you like to perform the film loading operation ?

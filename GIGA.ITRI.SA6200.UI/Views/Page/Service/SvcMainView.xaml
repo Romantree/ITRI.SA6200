@@ -1,0 +1,242 @@
+﻿<UserControl x:Class="GIGA.ITRI.SA6200.UI.Views.Page.Service.SvcMainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ts="clr-namespace:TS.FW.Wpf.Controls;assembly=TS.FW.Wpf"
+             xmlns:cnt="clr-namespace:GIGA.ITRI.SA6200.UI.Controls"
+             xmlns:uc="clr-namespace:GIGA.ITRI.SA6200.UI.Views.Page.Service.Uc"
+             xmlns:vm="clr-namespace:GIGA.ITRI.SA6200.UI.ViewModels.Page.Service"
+             xmlns:local="clr-namespace:GIGA.ITRI.SA6200.UI.Views.Page.Service"
+             mc:Ignorable="d" d:DataContext="{d:DesignInstance vm:SvcMainViewModel}"
+             Style="{StaticResource xPageSub}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="35"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <ts:Label3D Style="{StaticResource xLabCaption}" Content="Stage"/>
+            <cnt:StageControl Grid.Row="1" Margin="2" DataContext="{Binding Stage}"/>
+        </Grid>
+
+        <Grid Grid.Row="1" IsEnabled="{Binding IsBusy, Converter={StaticResource xBoolReverse}}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="185"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <ts:Label3D Style="{StaticResource xLabCaption}" Content="Motion Controller"/>
+
+            <ts:Border3D Grid.Row="1" Background="{StaticResource xTitleBack}" IsPressed="True" Margin="2" CornerRadius="4">
+                <Grid Margin="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <ts:Label3D Grid.Column="0" Style="{StaticResource xLabCaption}" Content="Name"/>
+                    <ts:Label3D Grid.Column="1" Style="{StaticResource xLabCaption}" Content="Servo"/>
+                    <ts:Label3D Grid.Column="2" Style="{StaticResource xLabCaption}" Content="Alarm"/>
+                    <ts:Label3D Grid.Column="3" Style="{StaticResource xLabCaption}" Content="Busy"/>
+                    <ts:Label3D Grid.Column="4" Style="{StaticResource xLabCaption}" Content="Position"/>
+
+                    <ItemsControl Grid.Row="1" Grid.ColumnSpan="9" ItemsSource="{Binding AxisList}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Height="35" Margin="0 0 0 1">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="2*"/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition Width="2*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <ts:Button3D Grid.Column="0" Style="{StaticResource xBtnEvent}" Content="{Binding Name}" 
+                                                 Foreground="{Binding IsSeleted, Converter={StaticResource xOnOffColor}, ConverterParameter=MENU}"
+                                                 Command="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type local:SvcMainView}}, Path=DataContext.OnSelectedCmd}"
+                                                 CommandParameter="{Binding}"/>
+
+                                    <ts:Button3D Grid.Column="1" Style="{StaticResource xBtnEvent}" Content="{Binding IsServoOn, Converter={StaticResource xString}, ConverterParameter=ON/OFF}"
+                                                 Command="{Binding OnServoCmd}"/>
+                                    <ts:Button3D Grid.Column="2" Style="{StaticResource xBtnEvent}" Content="{Binding IsAlarm, Converter={StaticResource xString}, ConverterParameter=ON/OFF}"
+                                                 Command="{Binding OnAlarmCmd}" IsEnabled="{Binding IsAlarm}"/>
+
+                                    <ts:Label3D Grid.Column="3" Style="{StaticResource xLabValue}" Content="{Binding IsBusy, Converter={StaticResource xString}, ConverterParameter=ON/OFF}"/>
+                                    <ts:Label3D Grid.Column="4" Style="{StaticResource xLabValue}" Content="{Binding ActPosition}" ContentStringFormat="{}{0:f3} mm"/>
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </Grid>
+            </ts:Border3D>
+
+            <ts:Border3D Grid.Row="2" Background="{StaticResource xTitleBack}" IsPressed="True" Margin="2" CornerRadius="4">
+                <Grid Margin="2" DataContext="{Binding SelectedAxis}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <ts:Button3D Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Style="{StaticResource xSvcBtnEvent}" Content="Home" Command="{Binding OnHomeCmd}"/>
+                    <ts:Button3D Grid.Row="0" Grid.Column="3" Grid.ColumnSpan="2" Style="{StaticResource xSvcBtnEvent}" Content="Stop" Command="{Binding OnStopCmd}"/>
+
+                    <ts:Label3D Grid.Row="1" Style="{StaticResource xLabCaption}" Content="Speed"/>
+                    <ts:Button3D Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Style="{StaticResource xBtnValue}" 
+                                 Content="{Binding Speed}" ContentStringFormat="{}{0:f3} mm/s"
+                                 Command="{Binding}" CommandParameter="Speed"/>
+
+                    <ts:Label3D Grid.Row="2" Style="{StaticResource xLabCaption}" Content="Jog"/>
+                    <ts:Button3D Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Style="{StaticResource xBtnEvent}" FontSize="20" Content="+"
+                                 LeftButtonDown="{Binding OnJogMoveCmd}" LeftButtonUp="{Binding OnStopCmd}" CommandParameter="+"/>
+                    <ts:Button3D Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="2" Style="{StaticResource xBtnEvent}" FontSize="20" Content="-"
+                                 LeftButtonDown="{Binding OnJogMoveCmd}" LeftButtonUp="{Binding OnStopCmd}" CommandParameter="-"/>
+
+                    <ts:Label3D Grid.Row="3" Style="{StaticResource xLabCaption}" Content="ABS Move"/>
+                    <ts:Button3D Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Style="{StaticResource xBtnValue}" 
+                                 Content="{Binding AbsPos}" ContentStringFormat="{}{0:f3} mm"
+                                 Command="{Binding }" CommandParameter="AbsPos"/>
+                    <ts:Button3D Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="2" Style="{StaticResource xSvcBtnEvent}" Content="ABS Move"
+                                 Command="{Binding OnAbsMoveCmd}"/>
+
+                    <ts:Label3D Grid.Row="4" Style="{StaticResource xLabCaption}" Content="REL Move"/>
+                    <ts:Button3D Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Style="{StaticResource xBtnValue}" 
+                                 Content="{Binding RelPos}" ContentStringFormat="{}{0:f3} mm"
+                                 Command="{Binding}" CommandParameter="RelPos"/>
+                    <ts:Button3D Grid.Row="4" Grid.Column="3" Style="{StaticResource xSvcBtnEvent}" Content="+ Move"
+                                 Command="{Binding OnRelMoveCmd}" CommandParameter="+"/>
+                    <ts:Button3D Grid.Row="4" Grid.Column="4" Style="{StaticResource xSvcBtnEvent}" Content="- Move"
+                                 Command="{Binding OnRelMoveCmd}" CommandParameter="-"/>
+                </Grid>
+            </ts:Border3D>
+        </Grid>
+
+        <Grid Grid.Column="1" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="84"/>
+                <RowDefinition/>
+                <RowDefinition Height="212"/>
+            </Grid.RowDefinitions>
+
+            <ts:Border3D Margin="2" Background="{StaticResource xTitleBack}" IsPressed="True" CornerRadius="4">
+                <Grid Margin="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="120"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <ts:Label3D Style="{StaticResource xLabCaption}" Content="Recipe"/>
+                    <ts:Button3D Grid.Column="1" Grid.ColumnSpan="3" Style="{StaticResource xBtnValue}" Content="{Binding UC.RcpSelected.Name}" CommandParameter="RCP"/>
+
+                    <ts:Button3D Grid.Row="1" Grid.Column="0" Style="{StaticResource xBtnEvent}" Content="Save" Command="{Binding UC}" CommandParameter="SAVE"/>
+                    <ts:Button3D Grid.Row="1" Grid.Column="2" Style="{StaticResource xBtnEvent}" Content="Start" Background="Green" IsEnabled="{Binding IsStart}"/>
+                    <ts:Button3D Grid.Row="1" Grid.Column="3" Style="{StaticResource xBtnEvent}" Content="Abort" Background="Red"/>
+                </Grid>
+            </ts:Border3D>
+
+            <ts:Border3D Grid.Row="1" Grid.Column="1" IsPressed="True" Background="{StaticResource xTitleBack}" CornerRadius="4">
+                <Grid IsEnabled="{Binding IsStart}">
+                    <cnt:RcpMainControl DataContext="{Binding UC.RcpSelected}"/>
+                    <Canvas>
+                        <ts:Button3D Style="{StaticResource xBtnEvent}" Content="MOVE" FontSize="10" Height="72" Width="48" Canvas.Left="339" Canvas.Top="47"  CommandParameter="IMP_MOVE" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.026,0.401"/>
+                        <ts:Button3D Style="{StaticResource xBtnEvent}" Content="MOVE" FontSize="10" Height="72" Width="48" Canvas.Left="339" Canvas.Top="121" CommandParameter="IMP_P_MOVE" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+                        <ts:Button3D Style="{StaticResource xBtnEvent}" Content="MOVE" FontSize="10" Height="72" Width="48" Canvas.Left="528" Canvas.Top="46"  CommandParameter="DM_MOVE"/>
+                        <ts:Button3D Style="{StaticResource xBtnEvent}" Content="MOVE" FontSize="10" Height="72" Width="48" Canvas.Left="528" Canvas.Top="122" CommandParameter="DM_P_MOVE"/>
+                    </Canvas>
+                </Grid>
+            </ts:Border3D>
+
+            <Grid Grid.Row="4">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <ts:RadioButton3D x:Name="xUvLamp" Grid.Column="0" Style="{StaticResource xRtnEvent}" Content="UV Lamp" HorizontalContentAlignment="Center" IsChecked="True" FontSize="17"
+                                      Foreground="{Binding RelativeSource={RelativeSource Mode=Self}, Path=IsChecked, Converter={StaticResource xOnOffColor}, ConverterParameter=MENU}"  />
+                    <ts:RadioButton3D x:Name="xGapPress" Grid.Column="1" Style="{StaticResource xRtnEvent}" Content="Gap Press" HorizontalContentAlignment="Center"
+                                      Foreground="{Binding RelativeSource={RelativeSource Mode=Self}, Path=IsChecked, Converter={StaticResource xOnOffColor}, ConverterParameter=MENU}" FontSize="17"/>
+                    <ts:RadioButton3D x:Name="xVac" Grid.Column="2" Style="{StaticResource xRtnEvent}" Content="Vacuum" HorizontalContentAlignment="Center"
+                                      Foreground="{Binding RelativeSource={RelativeSource Mode=Self}, Path=IsChecked, Converter={StaticResource xOnOffColor}, ConverterParameter=MENU}" FontSize="17"/>
+                    <ts:RadioButton3D x:Name="xMotion" Grid.Column="3" Style="{StaticResource xRtnEvent}" Content="Teaching" HorizontalContentAlignment="Center"
+                                      Foreground="{Binding RelativeSource={RelativeSource Mode=Self}, Path=IsChecked, Converter={StaticResource xOnOffColor}, ConverterParameter=MENU}" FontSize="17"/>
+                    <ts:RadioButton3D x:Name="xEtc" Grid.Column="4" Style="{StaticResource xRtnEvent}" Content="Etc." HorizontalContentAlignment="Center"
+                                      Foreground="{Binding RelativeSource={RelativeSource Mode=Self}, Path=IsChecked, Converter={StaticResource xOnOffColor}, ConverterParameter=MENU}" FontSize="17" />
+                </Grid>
+
+                <TabControl Grid.Row="1" Margin="0" Background="Transparent" BorderThickness="0"  IsEnabled="{Binding IsBusy, Converter={StaticResource xBoolReverse}}">
+                    <TabControl.ItemContainerStyle>
+                        <Style TargetType="TabItem">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                        </Style>
+                    </TabControl.ItemContainerStyle>
+
+                    <TabItem IsSelected="{Binding ElementName=xUvLamp, Path=IsChecked}">
+                        <uc:UcLamp/>
+                    </TabItem>
+
+                    <TabItem IsSelected="{Binding ElementName=xGapPress, Path=IsChecked}">
+                        <uc:UcGapPress/>
+                    </TabItem>
+
+                    <TabItem IsSelected="{Binding ElementName=xVac, Path=IsChecked}">
+                        <uc:UcVacuum/>
+                    </TabItem>
+
+                    <TabItem IsSelected="{Binding ElementName=xMotion, Path=IsChecked}">
+                        <uc:UcMotion/>
+                    </TabItem>
+
+                    <TabItem IsSelected="{Binding ElementName=xEtc, Path=IsChecked}">
+                        <uc:UcEtc/>
+                    </TabItem>
+                </TabControl>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,17 @@
+13:24:52.912 [I] InitProc(SetProcMsg)[17] : ================= Start Process =================
+13:24:53.041 [I] InitProc(SetProcMsg)[17] : Regulator [L:30%] [R:30%] Enter
+13:24:53.107 [I] InitProc(SetProcMsg)[17] : Regulator [L:30%] [R:30%]
+13:24:53.169 [I] InitProc(SetProcMsg)[17] : ROLL GAP UP Enter
+13:24:53.236 [I] InitProc(SetProcMsg)[17] : ROLL GAP UP
+13:24:53.298 [I] InitProc(SetProcMsg)[17] : UV CYLINDER UP Enter
+13:24:53.363 [I] InitProc(SetProcMsg)[17] : UV CYLINDER UP
+13:24:53.426 [I] InitProc(SetProcMsg)[17] : LIFT PIN DOWN Enter
+13:24:53.490 [I] InitProc(SetProcMsg)[17] : LIFT PIN DOWN
+13:24:53.551 [I] InitProc(SetProcMsg)[17] : FILM CLAMP DOWN Enter
+13:24:53.620 [I] InitProc(SetProcMsg)[17] : FILM CLAMP DOWN
+13:24:53.681 [I] InitProc(SetProcMsg)[17] : ROLL CLAMP DOWN Enter
+13:24:53.746 [I] InitProc(SetProcMsg)[17] : ROLL CLAMP DOWN
+13:24:53.993 [I] InitProc(SetProcMsg)[17] : Motion Home Enter (StageX, RollGapRight, RollGapLeft, Demold)
+13:24:55.031 [I] InitProc(SetProcMsg)[17] : Motion Home (StageX, RollGapRight, RollGapLeft, Demold)
+13:24:55.092 [I] InitProc(SetProcMsg)[17] : Motion Software Limit Enter
+13:24:55.216 [I] InitProc(SetProcMsg)[17] : ================= End Process =================

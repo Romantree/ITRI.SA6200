@@ -1,0 +1,5 @@
+16:24:46.847 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+16:24:52.770 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+16:27:27.565 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+16:27:32.505 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+16:27:46.561 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the film loading operation ?

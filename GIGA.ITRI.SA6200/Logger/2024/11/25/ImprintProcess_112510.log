@@ -1,0 +1,21 @@
+10:04:37.728 [I] ImprintProcess(SetProcMsg)[19] : ================= Start Process =================
+10:04:37.728 [I] ImprintProcess(SetProcMsg)[19] : Mode : AUTO
+10:04:38.434 [I] ImprintProcess(SetProcMsg)[19] : Regulator [L:0%] [R:0%] Enter
+10:04:38.512 [I] ImprintProcess(SetProcMsg)[19] : Regulator [L:0%] [R:0%]
+10:04:38.743 [I] ImprintProcess(SetProcMsg)[19] : Stage : [Ready] Position Move
+10:04:38.748 [I] ImprintProcess(SetProcMsg)[19] : StageX 축 이동 : Cur:0.000mm Move:370.000mm
+10:04:38.749 [I] ImprintProcess(SetProcMsg)[19] : Demold 축 이동 : Cur:0.000mm Move:0.000mm Bypass
+10:07:06.537 [I] ImprintProcess(SetProcMsg)[12] : ================= Start Process =================
+10:07:06.537 [I] ImprintProcess(SetProcMsg)[12] : Mode : AUTO
+10:07:07.252 [I] ImprintProcess(SetProcMsg)[12] : Regulator [L:0%] [R:0%] Enter
+10:07:07.338 [I] ImprintProcess(SetProcMsg)[12] : Regulator [L:0%] [R:0%]
+10:07:07.575 [I] ImprintProcess(SetProcMsg)[12] : Stage : [Ready] Position Move
+10:07:07.578 [I] ImprintProcess(SetProcMsg)[12] : StageX 축 이동 : Cur:0.000mm Move:370.000mm
+10:07:07.579 [I] ImprintProcess(SetProcMsg)[12] : Demold 축 이동 : Cur:0.000mm Move:0.000mm Bypass
+10:09:25.731 [I] ImprintProcess(SetProcMsg)[13] : ================= Start Process =================
+10:09:25.731 [I] ImprintProcess(SetProcMsg)[13] : Mode : AUTO
+10:09:26.435 [I] ImprintProcess(SetProcMsg)[13] : Regulator [L:0%] [R:0%] Enter
+10:09:26.513 [I] ImprintProcess(SetProcMsg)[13] : Regulator [L:0%] [R:0%]
+10:09:26.747 [I] ImprintProcess(SetProcMsg)[13] : Stage : [Ready] Position Move
+10:09:26.751 [I] ImprintProcess(SetProcMsg)[13] : StageX 축 이동 : Cur:0.000mm Move:370.000mm
+10:09:26.751 [I] ImprintProcess(SetProcMsg)[13] : Demold 축 이동 : Cur:0.000mm Move:0.000mm Bypass

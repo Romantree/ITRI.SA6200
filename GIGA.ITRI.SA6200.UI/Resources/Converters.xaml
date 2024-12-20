@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:tc="clr-namespace:TS.FW.Wpf.Converters;assembly=TS.FW.Wpf"
+                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+
+    <tc:BoolReverseConverter x:Key="xBoolReverse"/>
+    <tc:ColorBrushConverter x:Key="xColorBrush"/>
+    <tc:DoubleConverter x:Key="xDouble"/>
+    <tc:HVisibilityConverter x:Key="xHVisibility"/>
+    <tc:IsNullValueConverter x:Key="xIsNullValue"/>
+    <tc:IsNullValueReverseConverter x:Key="xIsNullValueReverse"/>
+    <tc:IsNullVisibilityConverter x:Key="xIsNullVisibility"/>
+    <tc:IsNullVisibilityReverseConverter x:Key="xIsNullVisibilityReverse"/>
+    <tc:OnOffColorConverter x:Key="xOnOffColor"/>
+    <tc:StringConverter x:Key="xString"/>
+    <tc:ToleranceUnitConverter x:Key="xToleranceUnit"/>
+    <tc:VisibilityConverter x:Key="xVisibility"/>
+    <tc:VisibilityReverseConverter x:Key="xVisibilityRevers"/>
+
+</ResourceDictionary>

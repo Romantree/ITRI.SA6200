@@ -1,0 +1,25 @@
+09:10:11.496 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+09:10:15.402 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+09:14:29.777 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?
+09:14:33.439 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+09:14:53.898 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the home operation?
+09:15:09.351 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+09:15:23.632 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the home operation?
+09:27:39.657 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+09:27:47.614 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+09:27:59.370 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the home operation?
+09:28:44.872 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+09:29:07.362 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] :  The Stage is not in the ready position.
+ Would you like to perform the film loading operation ?
+09:29:55.097 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?
+09:31:13.645 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to initialize the data?
+09:39:13.866 [I] EventManager(Event_OnInterlockMsgEvent)[1] : The selected recipe does not exist.
+09:39:30.751 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?
+09:39:32.102 [I] EventManager(Event_OnInterlockMsgEvent)[1] : The recipe information does not exist.
+09:39:33.743 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+09:39:46.289 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+09:39:51.052 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+09:39:51.555 [I] EventManager(Event_OnInterlockMsgEvent)[1] : The recipe information does not exist.

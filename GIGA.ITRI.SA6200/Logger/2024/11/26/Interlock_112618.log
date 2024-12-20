@@ -1,0 +1,21 @@
+18:01:25.879 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the home operation?
+18:04:47.993 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+18:15:14.272 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+18:15:20.165 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+18:15:33.298 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+18:15:45.591 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation?
+18:16:01.129 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation?
+18:27:52.193 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+18:27:53.376 [I] EventManager(Event_OnInterlockMsgEvent)[1] : The current lcation cannot be started.
+Please move to the Ready location and try again.
+18:29:02.560 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+18:29:04.532 [I] EventManager(Event_OnInterlockMsgEvent)[1] : The current lcation cannot be started.
+Please move to the Ready location and try again.
+18:29:26.414 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+18:29:37.357 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+18:30:25.515 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+18:42:01.165 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?
+18:42:25.952 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] :  The Stage is not in the ready position.
+ Would you like to perform the film loading operation ?
+18:42:55.501 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?

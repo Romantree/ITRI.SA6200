@@ -1,0 +1,22 @@
+16:16:38.224 [I] ImprintProcess(SetProcMsg)[30] : ================= Start Process =================
+16:16:38.225 [I] ImprintProcess(SetProcMsg)[30] : Mode : IMPRINT
+16:16:38.906 [I] ImprintProcess(SetProcMsg)[30] : Stage : [Ready] Position Move
+16:16:38.907 [I] ImprintProcess(SetProcMsg)[30] : StageX Axis Movement : Cur:0.000mm Move:285.000mm
+16:16:38.907 [I] ImprintProcess(SetProcMsg)[30] : Demold Axis Movement : Cur:0.000mm Move:0.000mm Bypass
+16:16:44.782 [I] ImprintProcess(SetProcMsg)[30] : StageX Axis Movement Complete : Cur:285.000mm Move:285.000mm
+16:16:44.967 [I] ImprintProcess(SetProcMsg)[30] : Roll Gap : [Imrpint] Position Move
+16:16:44.968 [I] ImprintProcess(SetProcMsg)[30] : RollGapRight Axis Movement : Cur:-5.000mm Move:-5.000mm Bypass
+16:16:44.969 [I] ImprintProcess(SetProcMsg)[30] : RollGapLeft Axis Movement : Cur:-5.000mm Move:-5.000mm Bypass
+16:16:45.092 [I] ImprintProcess(SetProcMsg)[30] : StageX : [Inch08] Position Move
+16:16:45.093 [I] ImprintProcess(SetProcMsg)[30] : StageX Axis Movement : Cur:285.000mm Move:370.000mm
+16:16:45.093 [I] ImprintProcess(SetProcMsg)[30] : Demold Axis Movement : Cur:0.000mm Move:85.000mm
+16:16:45.093 [I] ImprintProcess(SetProcMsg)[30] : Delay Time 50 msec
+16:16:48.136 [I] ImprintProcess(SetProcMsg)[30] : StageX Axis Movement Complete : Cur:370.000mm Move:370.000mm
+16:16:48.198 [I] ImprintProcess(SetProcMsg)[30] : Demold Axis Movement Complete : Cur:85.000mm Move:85.000mm
+16:16:48.321 [I] ImprintProcess(SetProcMsg)[30] : StageX : [Imrpint] Position Move
+16:16:48.322 [I] ImprintProcess(SetProcMsg)[30] : StageX Axis Movement : Cur:370.000mm Move:550.000mm
+16:16:48.323 [I] ImprintProcess(SetProcMsg)[30] : Demold Axis Movement : Cur:85.000mm Move:265.000mm
+16:16:48.323 [I] ImprintProcess(SetProcMsg)[30] : Delay Time 50 msec
+16:16:52.046 [I] ImprintProcess(SetProcMsg)[30] : StageX Axis Movement Complete : Cur:550.000mm Move:550.000mm
+16:16:52.108 [I] ImprintProcess(SetProcMsg)[30] : Demold Axis Movement Complete : Cur:265.000mm Move:265.000mm
+16:16:52.292 [I] ImprintProcess(SetProcMsg)[30] : ================= End Process =================

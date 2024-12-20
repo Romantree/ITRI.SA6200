@@ -1,0 +1,47 @@
+﻿namespace GIGA.ITRI.SA6200.UI.Process.Init
+{
+    public enum InitStep
+    {
+        START,
+
+        UV_LAMP_OFF_ENTER,
+        UV_LAMP_OFF_POLLING,
+
+        REG_SETTING_ENTER,
+        REG_SETTING_POLLING,
+
+        GAP_PRESS_UP_ENTER,
+        GAP_PRESS_UP_POLLING,
+
+        UV_CYLINDER_UP_ENTER,
+        UV_CYLINDER_UP_POLLING,
+
+        LIFT_PIN_DOWN_ENTER,
+        LIFT_PIN_DOWN_POLLING,
+
+        FILM_CLAMP_DOWN_ENTER,
+        FILM_CLAMP_DOWN_POLLING,
+
+        ROLL_CLAMP_DOWN_ENTER,
+        ROLL_CLAMP_DOWN_POLLING,
+
+        MOT_SERVO_ON_ENTER,
+        MOT_SERVO_ON_POLLING,
+
+        MOT_ALARM_RESET_ENTER,
+        MOT_ALARM_RESET_POLLING,
+
+        MOT_GANTRY_ENABLE_ENTER,
+        MOT_GANTRY_ENABLE_POLLING,
+
+        MOT_HOME_ENTER,
+        MOT_HOME_POLLING,
+
+        MOT_SET_LIMIT,
+
+        LOADCELL_ZERO_ENTER,
+        LOADCELL_ZERO_POLLING,
+
+        END,
+    }
+}

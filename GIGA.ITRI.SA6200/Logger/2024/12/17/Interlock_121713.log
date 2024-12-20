@@ -1,0 +1,28 @@
+13:24:52.332 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+13:24:58.489 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+13:27:05.135 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+13:27:12.637 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?
+13:27:28.318 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+13:28:13.893 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+13:29:44.371 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+13:31:18.042 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+13:32:50.298 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+13:42:11.026 [I] EventManager(Event_OnInterlockMsgEvent)[1] : Cannot start from the current position.\r\nPlease move to the Ready position and try again
+13:42:59.011 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?
+13:43:12.938 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?
+13:48:56.132 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?
+13:49:26.873 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+13:50:17.894 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the home operation?
+13:50:52.516 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?
+13:51:05.514 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?
+13:51:08.237 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+13:53:06.556 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the home operation?
+13:53:28.445 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+13:57:40.532 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?

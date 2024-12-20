@@ -1,0 +1,11 @@
+17:01:35.503 [E] NetManager(Start)[1] : The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell] => System.Exception: The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell]
+   위치: GIGA.ITRI.SA6200.UI.Managers.NetManager.Start(INetSerialPort net, NetworkUnit unit) 파일 C:\000.Source\GIGA.ITRI.SA6200\GIGA.ITRI.SA6200.UI\Managers\NetManager.cs:줄 66
+17:02:30.641 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.12.2.1 ============
+17:08:24.755 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.12.2.1 ============
+17:08:31.687 [E] NetManager(Start)[1] : The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell] => System.Exception: The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell]
+   위치: GIGA.ITRI.SA6200.UI.Managers.NetManager.Start(INetSerialPort net, NetworkUnit unit) 파일 C:\000.Source\GIGA.ITRI.SA6200\GIGA.ITRI.SA6200.UI\Managers\NetManager.cs:줄 66
+17:08:41.915 [E] NetManager(Start)[1] : The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell] => System.Exception: The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell]
+   위치: GIGA.ITRI.SA6200.UI.Managers.NetManager.Start(INetSerialPort net, NetworkUnit unit) 파일 C:\000.Source\GIGA.ITRI.SA6200\GIGA.ITRI.SA6200.UI\Managers\NetManager.cs:줄 66
+17:08:43.507 [E] NetManager(Start)[1] : The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell] => System.Exception: The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell]
+   위치: GIGA.ITRI.SA6200.UI.Managers.NetManager.Start(INetSerialPort net, NetworkUnit unit) 파일 C:\000.Source\GIGA.ITRI.SA6200\GIGA.ITRI.SA6200.UI\Managers\NetManager.cs:줄 66
+17:23:59.802 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.12.2.1 ============

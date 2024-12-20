@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="GIGA.ITRI.SA6200.UI.Views.Page.Service.Uc.UcMotion"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                      xmlns:ts="clr-namespace:TS.FW.Wpf.Controls;assembly=TS.FW.Wpf"
+         xmlns:local="clr-namespace:GIGA.ITRI.SA6200.UI.Views.Page.Service.Uc"
+         mc:Ignorable="d" 
+         d:DesignHeight="177" d:DesignWidth="583">
+    <ts:Border3D Background="{StaticResource xTitleBack}" IsPressed="True" CornerRadius="2">
+        <Grid Margin="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="220"/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <ts:Button3D Grid.Row="0" Grid.Column="0" Style="{StaticResource xBtnEvent}" Content="Home" IsEnabled="{Binding isInitStart}"/>
+            <ts:Button3D Grid.Row="0" Grid.Column="1" Style="{StaticResource xBtnEvent}" Content="Ready" IsEnabled="{Binding isInitStart}"/>
+            <ts:Button3D Grid.Row="0" Grid.Column="2" Style="{StaticResource xBtnEvent}" Content="Film Loading" IsEnabled="{Binding isInitStart}"/>
+
+            <ts:Label3D Grid.Row="1" Grid.Column="0" Style="{StaticResource xLabCaption}" Content="Stage X Ready (mm)"/>
+            <ts:Label3D Grid.Row="2" Grid.Column="0" Style="{StaticResource xLabCaption}" Content="Stage X Film Loading (mm)"/>
+
+            <ts:Button3D Grid.Row="1" Grid.Column="1" Style="{StaticResource xBtnValue}" DataContext="{Binding StageXReady}" Content="{Binding Position}" ContentStringFormat="{}{0:f3}" CommandParameter="Position"/>
+            <ts:Button3D Grid.Row="2" Grid.Column="1" Style="{StaticResource xBtnValue}" DataContext="{Binding StageXFilmLoading}" Content="{Binding Position}" ContentStringFormat="{}{0:f3}" CommandParameter="Position"/>
+
+            <ts:Button3D Grid.Row="1" Grid.Column="2" Style="{StaticResource xBtnEvent}" Content="READ" CommandParameter="R_STAGE_X"/>
+            <ts:Button3D Grid.Row="2" Grid.Column="2" Style="{StaticResource xBtnEvent}" Content="READ" CommandParameter="R_FILM_X"/>
+
+            <ts:Button3D Grid.Row="4" Grid.Column="1" Style="{StaticResource xBtnEvent}" Content="Refresh"/>
+            <ts:Button3D Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Style="{StaticResource xBtnEvent}" Content="SAVE" Background="Green"/>
+        </Grid>
+    </ts:Border3D>
+</UserControl>

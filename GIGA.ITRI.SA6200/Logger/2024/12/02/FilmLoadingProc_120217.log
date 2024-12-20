@@ -1,0 +1,8 @@
+17:04:45.721 [I] FilmLoadProc(SetProcMsg)[21] : ================= Start Process =================
+17:04:46.356 [I] FilmLoadProc(SetProcMsg)[21] : RollGapRight Axis Movement : Cur:0.000mm Move:-1.000mm
+17:04:46.356 [I] FilmLoadProc(SetProcMsg)[21] : RollGapLeft Axis Movement : Cur:0.000mm Move:-1.000mm
+17:04:59.841 [I] FilmLoadProc(SetProcMsg)[22] : ================= Start Process =================
+17:05:00.072 [I] FilmLoadProc(SetProcMsg)[22] : Regulator [L:30%] [R:30%] Enter
+17:05:00.149 [I] FilmLoadProc(SetProcMsg)[22] : Regulator [L:30%] [R:30%]
+17:05:00.537 [I] FilmLoadProc(SetProcMsg)[22] : RollGapRight Axis Movement : Cur:0.000mm Move:-1.000mm
+17:05:00.537 [I] FilmLoadProc(SetProcMsg)[22] : RollGapLeft Axis Movement : Cur:0.000mm Move:-1.000mm

@@ -1,0 +1,45 @@
+{
+  "$type": "GIGA.ITRI.SA6200.UI.Models.Recipe.MainRecipeModel, GIGA.ITRI.SA6200.UI",
+  "VacuumUnit": 1,
+  "Imprint": {
+    "$type": "GIGA.ITRI.SA6200.UI.Models.Recipe.StageDataModel, GIGA.ITRI.SA6200.UI",
+    "Stage": {
+      "$type": "GIGA.ITRI.SA6200.UI.Models.Recipe.RcpMotionDataModel, GIGA.ITRI.SA6200.UI",
+      "Position": 605.0,
+      "Speed": 50.0
+    },
+    "Demold": {
+      "$type": "GIGA.ITRI.SA6200.UI.Models.Recipe.RcpMotionDataModel, GIGA.ITRI.SA6200.UI",
+      "Position": 0.0,
+      "Speed": 0.0
+    },
+    "GapLeft": 5.0,
+    "GapRight": 5.0,
+    "RegulatorLeft": 30,
+    "RegulatorRight": 30,
+    "UvLampUsed": false,
+    "UvLampPower": 0
+  },
+  "Demold": {
+    "$type": "GIGA.ITRI.SA6200.UI.Models.Recipe.StageDataModel, GIGA.ITRI.SA6200.UI",
+    "Stage": {
+      "$type": "GIGA.ITRI.SA6200.UI.Models.Recipe.RcpMotionDataModel, GIGA.ITRI.SA6200.UI",
+      "Position": 285.0,
+      "Speed": 50.0
+    },
+    "Demold": {
+      "$type": "GIGA.ITRI.SA6200.UI.Models.Recipe.RcpMotionDataModel, GIGA.ITRI.SA6200.UI",
+      "Position": 0.0,
+      "Speed": 0.0
+    },
+    "GapLeft": 5.0,
+    "GapRight": 5.0,
+    "RegulatorLeft": 30,
+    "RegulatorRight": 30,
+    "UvLampUsed": false,
+    "UvLampPower": 0
+  },
+  "Type": 0,
+  "No": 0,
+  "Name": "first"
+}

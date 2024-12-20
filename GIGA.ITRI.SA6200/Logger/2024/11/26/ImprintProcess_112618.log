@@ -1,0 +1,153 @@
+18:01:38.941 [I] ImprintProcess(SetProcMsg)[22] : ================= Start Process =================
+18:01:38.942 [I] ImprintProcess(SetProcMsg)[22] : Mode : AUTO
+18:01:39.623 [I] ImprintProcess(SetProcMsg)[22] : Stage : [Ready] Position Move
+18:01:39.624 [I] ImprintProcess(SetProcMsg)[22] : StageX 축 이동 : Cur:0.000mm Move:285.000mm
+18:01:39.624 [I] ImprintProcess(SetProcMsg)[22] : Demold 축 이동 : Cur:0.000mm Move:0.000mm Bypass
+18:01:45.517 [I] ImprintProcess(SetProcMsg)[22] : StageX 축 이동 완료 : Cur:285.000mm Move:285.000mm
+18:01:45.641 [I] ImprintProcess(SetProcMsg)[22] : ROLL GAP DOWN Enter
+18:01:45.703 [I] ImprintProcess(SetProcMsg)[22] : ROLL GAP DOWN
+18:01:45.703 [I] ImprintProcess(SetProcMsg)[22] : Delay Time 2000 msec
+18:01:47.767 [I] ImprintProcess(SetProcMsg)[22] : Roll Gap : [Imrpint] Position Move
+18:01:47.767 [I] ImprintProcess(SetProcMsg)[22] : RollGapRight 축 이동 : Cur:-1.000mm Move:-5.000mm
+18:01:47.767 [I] ImprintProcess(SetProcMsg)[22] : RollGapLeft 축 이동 : Cur:-1.000mm Move:-5.000mm
+18:01:48.014 [I] ImprintProcess(SetProcMsg)[22] : RollGapRight 축 이동 완료 : Cur:-5.000mm Move:-5.000mm
+18:01:48.015 [I] ImprintProcess(SetProcMsg)[22] : RollGapLeft 축 이동 완료 : Cur:-5.000mm Move:-5.000mm
+18:01:48.078 [I] ImprintProcess(SetProcMsg)[22] : StageX : [Inch08] Position Move
+18:01:48.078 [I] ImprintProcess(SetProcMsg)[22] : StageX 축 이동 : Cur:285.000mm Move:370.000mm
+18:01:48.079 [I] ImprintProcess(SetProcMsg)[22] : Demold 축 이동 : Cur:0.000mm Move:85.000mm
+18:01:48.079 [I] ImprintProcess(SetProcMsg)[22] : Delay Time 50 msec
+18:01:51.130 [I] ImprintProcess(SetProcMsg)[22] : StageX 축 이동 완료 : Cur:370.000mm Move:370.000mm
+18:01:51.192 [I] ImprintProcess(SetProcMsg)[22] : Demold 축 이동 완료 : Cur:85.000mm Move:85.000mm
+18:01:51.315 [I] ImprintProcess(SetProcMsg)[22] : StageX : [Imrpint] Position Move
+18:01:51.316 [I] ImprintProcess(SetProcMsg)[22] : StageX 축 이동 : Cur:370.000mm Move:550.000mm
+18:01:51.317 [I] ImprintProcess(SetProcMsg)[22] : Demold 축 이동 : Cur:85.000mm Move:265.000mm
+18:01:51.318 [I] ImprintProcess(SetProcMsg)[22] : Delay Time 50 msec
+18:01:55.058 [I] ImprintProcess(SetProcMsg)[22] : StageX 축 이동 완료 : Cur:550.000mm Move:550.000mm
+18:01:55.120 [I] ImprintProcess(SetProcMsg)[22] : Demold 축 이동 완료 : Cur:265.000mm Move:265.000mm
+18:01:55.554 [I] ImprintProcess(SetProcMsg)[22] : Roll Gap : [Demold] Position Move
+18:01:55.554 [I] ImprintProcess(SetProcMsg)[22] : RollGapRight 축 이동 : Cur:-5.000mm Move:-5.000mm Bypass
+18:01:55.555 [I] ImprintProcess(SetProcMsg)[22] : RollGapLeft 축 이동 : Cur:-5.000mm Move:-5.000mm Bypass
+18:01:55.739 [I] ImprintProcess(SetProcMsg)[22] : StageX : [Demold] Position Move
+18:01:55.739 [I] ImprintProcess(SetProcMsg)[22] : StageX 축 이동 : Cur:550.000mm Move:285.000mm
+18:01:55.740 [I] ImprintProcess(SetProcMsg)[22] : Demold 축 이동 : Cur:265.000mm Move:0.000mm
+18:01:55.740 [I] ImprintProcess(SetProcMsg)[22] : Delay Time 50 msec
+18:02:01.203 [I] ImprintProcess(SetProcMsg)[22] : StageX 축 이동 완료 : Cur:285.000mm Move:285.000mm
+18:02:01.265 [I] ImprintProcess(SetProcMsg)[22] : Demold 축 이동 완료 : Cur:0.000mm Move:0.000mm
+18:02:01.573 [I] ImprintProcess(SetProcMsg)[22] : ================= End Process =================
+18:04:59.080 [I] ImprintProcess(SetProcMsg)[16] : ================= Start Process =================
+18:04:59.080 [I] ImprintProcess(SetProcMsg)[16] : Mode : AUTO
+18:04:59.770 [I] ImprintProcess(SetProcMsg)[16] : Stage : [Ready] Position Move
+18:04:59.773 [I] ImprintProcess(SetProcMsg)[16] : StageX 축 이동 : Cur:0.000mm Move:285.000mm
+18:04:59.774 [I] ImprintProcess(SetProcMsg)[16] : Demold 축 이동 : Cur:0.000mm Move:0.000mm Bypass
+18:05:05.664 [I] ImprintProcess(SetProcMsg)[16] : StageX 축 이동 완료 : Cur:285.000mm Move:285.000mm
+18:05:05.787 [I] ImprintProcess(SetProcMsg)[16] : ROLL GAP DOWN Enter
+18:05:05.849 [I] ImprintProcess(SetProcMsg)[16] : ROLL GAP DOWN
+18:05:05.849 [I] ImprintProcess(SetProcMsg)[16] : Delay Time 2000 msec
+18:05:07.912 [I] ImprintProcess(SetProcMsg)[16] : Roll Gap : [Imrpint] Position Move
+18:05:07.922 [I] ImprintProcess(SetProcMsg)[16] : RollGapRight 축 이동 : Cur:0.000mm Move:-5.000mm
+18:05:07.922 [I] ImprintProcess(SetProcMsg)[16] : RollGapLeft 축 이동 : Cur:0.000mm Move:-5.000mm
+18:05:08.168 [I] ImprintProcess(SetProcMsg)[16] : RollGapRight 축 이동 완료 : Cur:-5.000mm Move:-5.000mm
+18:05:08.168 [I] ImprintProcess(SetProcMsg)[16] : RollGapLeft 축 이동 완료 : Cur:-5.000mm Move:-5.000mm
+18:05:08.231 [I] ImprintProcess(SetProcMsg)[16] : StageX : [Inch08] Position Move
+18:05:08.240 [I] ImprintProcess(SetProcMsg)[16] : StageX 축 이동 : Cur:285.000mm Move:370.000mm
+18:05:08.240 [I] ImprintProcess(SetProcMsg)[16] : Demold 축 이동 : Cur:0.000mm Move:85.000mm
+18:05:08.240 [I] ImprintProcess(SetProcMsg)[16] : Delay Time 50 msec
+18:05:11.300 [I] ImprintProcess(SetProcMsg)[16] : StageX 축 이동 완료 : Cur:370.000mm Move:370.000mm
+18:05:11.362 [I] ImprintProcess(SetProcMsg)[16] : Demold 축 이동 완료 : Cur:85.000mm Move:85.000mm
+18:05:11.486 [I] ImprintProcess(SetProcMsg)[16] : StageX : [Imrpint] Position Move
+18:05:11.487 [I] ImprintProcess(SetProcMsg)[16] : StageX 축 이동 : Cur:370.000mm Move:550.000mm
+18:05:11.488 [I] ImprintProcess(SetProcMsg)[16] : Demold 축 이동 : Cur:85.000mm Move:265.000mm
+18:05:11.488 [I] ImprintProcess(SetProcMsg)[16] : Delay Time 50 msec
+18:05:15.228 [I] ImprintProcess(SetProcMsg)[16] : StageX 축 이동 완료 : Cur:550.000mm Move:550.000mm
+18:05:15.289 [I] ImprintProcess(SetProcMsg)[16] : Demold 축 이동 완료 : Cur:265.000mm Move:265.000mm
+18:05:15.722 [I] ImprintProcess(SetProcMsg)[16] : Roll Gap : [Demold] Position Move
+18:05:15.722 [I] ImprintProcess(SetProcMsg)[16] : RollGapRight 축 이동 : Cur:-5.000mm Move:-5.000mm Bypass
+18:05:15.723 [I] ImprintProcess(SetProcMsg)[16] : RollGapLeft 축 이동 : Cur:-5.000mm Move:-5.000mm Bypass
+18:05:15.908 [I] ImprintProcess(SetProcMsg)[16] : StageX : [Demold] Position Move
+18:05:15.908 [I] ImprintProcess(SetProcMsg)[16] : StageX 축 이동 : Cur:550.000mm Move:285.000mm
+18:05:15.908 [I] ImprintProcess(SetProcMsg)[16] : Demold 축 이동 : Cur:265.000mm Move:0.000mm
+18:05:15.909 [I] ImprintProcess(SetProcMsg)[16] : Delay Time 50 msec
+18:05:21.349 [I] ImprintProcess(SetProcMsg)[16] : StageX 축 이동 완료 : Cur:285.000mm Move:285.000mm
+18:05:21.411 [I] ImprintProcess(SetProcMsg)[16] : Demold 축 이동 완료 : Cur:0.000mm Move:0.000mm
+18:05:21.720 [I] ImprintProcess(SetProcMsg)[16] : ================= End Process =================
+18:07:47.169 [I] ImprintProcess(SetProcMsg)[16] : ================= Start Process =================
+18:07:47.169 [I] ImprintProcess(SetProcMsg)[16] : Mode : AUTO
+18:07:48.033 [I] ImprintProcess(SetProcMsg)[16] : Roll Gap : [Imrpint] Position Move
+18:07:48.034 [I] ImprintProcess(SetProcMsg)[16] : RollGapRight 축 이동 : Cur:-5.000mm Move:-5.000mm Bypass
+18:07:48.034 [I] ImprintProcess(SetProcMsg)[16] : RollGapLeft 축 이동 : Cur:-5.000mm Move:-5.000mm Bypass
+18:07:48.157 [I] ImprintProcess(SetProcMsg)[16] : StageX : [Inch08] Position Move
+18:07:48.157 [I] ImprintProcess(SetProcMsg)[16] : StageX 축 이동 : Cur:285.000mm Move:370.000mm
+18:07:48.157 [I] ImprintProcess(SetProcMsg)[16] : Demold 축 이동 : Cur:0.000mm Move:85.000mm
+18:07:48.158 [I] ImprintProcess(SetProcMsg)[16] : Delay Time 50 msec
+18:07:51.221 [I] ImprintProcess(SetProcMsg)[16] : StageX 축 이동 완료 : Cur:370.000mm Move:370.000mm
+18:07:51.283 [I] ImprintProcess(SetProcMsg)[16] : Demold 축 이동 완료 : Cur:85.000mm Move:85.000mm
+18:07:51.406 [I] ImprintProcess(SetProcMsg)[16] : StageX : [Imrpint] Position Move
+18:07:51.406 [I] ImprintProcess(SetProcMsg)[16] : StageX 축 이동 : Cur:370.000mm Move:550.000mm
+18:07:51.406 [I] ImprintProcess(SetProcMsg)[16] : Demold 축 이동 : Cur:85.000mm Move:265.000mm
+18:07:51.406 [I] ImprintProcess(SetProcMsg)[16] : Delay Time 50 msec
+18:07:55.135 [I] ImprintProcess(SetProcMsg)[16] : StageX 축 이동 완료 : Cur:550.000mm Move:550.000mm
+18:07:55.197 [I] ImprintProcess(SetProcMsg)[16] : Demold 축 이동 완료 : Cur:265.000mm Move:265.000mm
+18:07:55.628 [I] ImprintProcess(SetProcMsg)[16] : Roll Gap : [Demold] Position Move
+18:07:55.629 [I] ImprintProcess(SetProcMsg)[16] : RollGapRight 축 이동 : Cur:-5.000mm Move:-5.000mm Bypass
+18:07:55.630 [I] ImprintProcess(SetProcMsg)[16] : RollGapLeft 축 이동 : Cur:-5.000mm Move:-5.000mm Bypass
+18:07:55.814 [I] ImprintProcess(SetProcMsg)[16] : StageX : [Demold] Position Move
+18:07:55.814 [I] ImprintProcess(SetProcMsg)[16] : StageX 축 이동 : Cur:550.000mm Move:285.000mm
+18:07:55.815 [I] ImprintProcess(SetProcMsg)[16] : Demold 축 이동 : Cur:265.000mm Move:0.000mm
+18:07:55.815 [I] ImprintProcess(SetProcMsg)[16] : Delay Time 50 msec
+18:08:01.278 [I] ImprintProcess(SetProcMsg)[16] : StageX 축 이동 완료 : Cur:285.000mm Move:285.000mm
+18:08:01.340 [I] ImprintProcess(SetProcMsg)[16] : Demold 축 이동 완료 : Cur:0.000mm Move:0.000mm
+18:08:01.648 [I] ImprintProcess(SetProcMsg)[16] : ================= End Process =================
+18:15:34.035 [I] ImprintProcess(SetProcMsg)[13] : ================= Start Process =================
+18:15:34.036 [I] ImprintProcess(SetProcMsg)[13] : Mode : IMPRINT
+18:15:35.132 [I] ImprintProcess(SetProcMsg)[13] : Roll Gap : [Imrpint] Position Move
+18:15:35.133 [I] ImprintProcess(SetProcMsg)[13] : RollGapRight 축 이동 : Cur:-5.000mm Move:-5.000mm Bypass
+18:15:35.134 [I] ImprintProcess(SetProcMsg)[13] : RollGapLeft 축 이동 : Cur:-5.000mm Move:-5.000mm Bypass
+18:15:35.290 [I] ImprintProcess(SetProcMsg)[13] : StageX : [Inch08] Position Move
+18:15:35.302 [I] ImprintProcess(SetProcMsg)[13] : StageX 축 이동 : Cur:285.000mm Move:370.000mm
+18:15:35.302 [I] ImprintProcess(SetProcMsg)[13] : Demold 축 이동 : Cur:0.000mm Move:85.000mm
+18:15:35.302 [I] ImprintProcess(SetProcMsg)[13] : Delay Time 50 msec
+18:15:38.648 [I] ImprintProcess(SetProcMsg)[13] : StageX 축 이동 완료 : Cur:370.000mm Move:370.000mm
+18:15:38.649 [I] ImprintProcess(SetProcMsg)[13] : Demold 축 이동 완료 : Cur:85.000mm Move:85.000mm
+18:15:38.806 [I] ImprintProcess(SetProcMsg)[13] : StageX : [Imrpint] Position Move
+18:15:38.807 [I] ImprintProcess(SetProcMsg)[13] : StageX 축 이동 : Cur:370.000mm Move:550.000mm
+18:15:38.808 [I] ImprintProcess(SetProcMsg)[13] : Demold 축 이동 : Cur:85.000mm Move:265.000mm
+18:15:38.809 [I] ImprintProcess(SetProcMsg)[13] : Delay Time 50 msec
+18:15:42.841 [I] ImprintProcess(SetProcMsg)[13] : StageX 축 이동 완료 : Cur:550.000mm Move:550.000mm
+18:15:42.919 [I] ImprintProcess(SetProcMsg)[13] : Demold 축 이동 완료 : Cur:265.000mm Move:265.000mm
+18:15:43.153 [I] ImprintProcess(SetProcMsg)[13] : ================= End Process =================
+18:15:46.797 [I] ImprintProcess(SetProcMsg)[14] : ================= Start Process =================
+18:15:46.798 [I] ImprintProcess(SetProcMsg)[14] : Mode : DEMOLD
+18:15:47.735 [I] ImprintProcess(SetProcMsg)[14] : Roll Gap : [Demold] Position Move
+18:15:47.735 [I] ImprintProcess(SetProcMsg)[14] : RollGapRight 축 이동 : Cur:-5.000mm Move:-5.000mm Bypass
+18:15:47.737 [I] ImprintProcess(SetProcMsg)[14] : RollGapLeft 축 이동 : Cur:-5.000mm Move:-5.000mm Bypass
+18:15:47.969 [I] ImprintProcess(SetProcMsg)[14] : StageX : [Demold] Position Move
+18:15:47.971 [I] ImprintProcess(SetProcMsg)[14] : StageX 축 이동 : Cur:550.000mm Move:285.000mm
+18:15:47.971 [I] ImprintProcess(SetProcMsg)[14] : Demold 축 이동 : Cur:265.000mm Move:0.000mm
+18:15:47.972 [I] ImprintProcess(SetProcMsg)[14] : Delay Time 50 msec
+18:15:53.864 [I] ImprintProcess(SetProcMsg)[14] : StageX 축 이동 완료 : Cur:285.000mm Move:285.000mm
+18:15:53.942 [I] ImprintProcess(SetProcMsg)[14] : Demold 축 이동 완료 : Cur:0.000mm Move:0.000mm
+18:15:54.335 [I] ImprintProcess(SetProcMsg)[14] : ================= End Process =================
+18:16:02.383 [I] ImprintProcess(SetProcMsg)[14] : ================= Start Process =================
+18:16:02.384 [I] ImprintProcess(SetProcMsg)[14] : Mode : DEMOLD
+18:16:03.317 [I] ImprintProcess(SetProcMsg)[14] : Roll Gap : [Demold] Position Move
+18:16:03.318 [I] ImprintProcess(SetProcMsg)[14] : RollGapRight 축 이동 : Cur:-5.000mm Move:-5.000mm Bypass
+18:16:03.318 [I] ImprintProcess(SetProcMsg)[14] : RollGapLeft 축 이동 : Cur:-5.000mm Move:-5.000mm Bypass
+18:16:03.939 [I] ImprintProcess(SetProcMsg)[14] : ================= End Process =================
+18:35:53.356 [I] ImprintProcess(SetProcMsg)[23] : ================= Start Process =================
+18:35:53.358 [I] ImprintProcess(SetProcMsg)[23] : Mode : IMPRINT
+18:36:09.492 [I] ImprintProcess(SetProcMsg)[23] : Roll Gap : [Imrpint] Position Move
+18:36:09.494 [I] ImprintProcess(SetProcMsg)[23] : RollGapRight 축 이동 : Cur:-5.000mm Move:-5.000mm Bypass
+18:36:09.494 [I] ImprintProcess(SetProcMsg)[23] : RollGapLeft 축 이동 : Cur:-5.000mm Move:-5.000mm Bypass
+18:36:09.619 [I] ImprintProcess(SetProcMsg)[23] : StageX : [Inch08] Position Move
+18:36:09.640 [I] ImprintProcess(SetProcMsg)[23] : StageX 축 이동 : Cur:285.001mm Move:370.000mm
+18:36:09.640 [I] ImprintProcess(SetProcMsg)[23] : Demold 축 이동 : Cur:0.000mm Move:85.000mm
+18:36:09.641 [I] ImprintProcess(SetProcMsg)[23] : Delay Time 50 msec
+18:36:12.690 [I] ImprintProcess(SetProcMsg)[23] : StageX 축 이동 완료 : Cur:370.000mm Move:370.000mm
+18:36:12.752 [I] ImprintProcess(SetProcMsg)[23] : Demold 축 이동 완료 : Cur:85.000mm Move:85.000mm
+18:36:12.874 [I] ImprintProcess(SetProcMsg)[23] : StageX : [Imrpint] Position Move
+18:36:12.875 [I] ImprintProcess(SetProcMsg)[23] : StageX 축 이동 : Cur:370.000mm Move:550.000mm
+18:36:12.875 [I] ImprintProcess(SetProcMsg)[23] : Demold 축 이동 : Cur:85.000mm Move:265.000mm
+18:36:12.876 [I] ImprintProcess(SetProcMsg)[23] : Delay Time 50 msec
+18:36:16.658 [I] ImprintProcess(SetProcMsg)[23] : StageX 축 이동 완료 : Cur:550.000mm Move:550.000mm
+18:36:16.658 [I] ImprintProcess(SetProcMsg)[23] : Demold 축 이동 완료 : Cur:265.000mm Move:265.000mm
+18:36:16.843 [I] ImprintProcess(SetProcMsg)[23] : ================= End Process =================

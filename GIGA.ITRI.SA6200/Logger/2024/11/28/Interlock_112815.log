@@ -1,0 +1,27 @@
+15:02:58.698 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+15:04:45.840 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+15:06:02.256 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+15:06:06.918 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+15:06:30.486 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+15:20:50.757 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+15:21:23.374 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?
+15:21:26.561 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+15:22:16.962 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+15:22:22.054 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+15:23:07.218 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+15:24:11.374 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+15:25:25.299 [I] EventManager(Event_OnInterlockMsgEvent)[1] : The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetRequlator] => System.Exception: The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetRequlator]
+   위치: GIGA.ITRI.SA6200.UI.Managers.NetManager.Start(INetSerialPort net, NetworkUnit unit) 파일 C:\000.Source\GIGA.ITRI.SA6200\GIGA.ITRI.SA6200.UI\Managers\NetManager.cs:줄 66
+15:25:41.473 [I] EventManager(Event_OnInterlockMsgEvent)[1] : The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell] => System.Exception: The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell]
+   위치: GIGA.ITRI.SA6200.UI.Managers.NetManager.Start(INetSerialPort net, NetworkUnit unit) 파일 C:\000.Source\GIGA.ITRI.SA6200\GIGA.ITRI.SA6200.UI\Managers\NetManager.cs:줄 66
+15:26:13.398 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+15:26:40.004 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+15:27:37.399 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+15:27:40.287 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+15:27:46.624 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+15:28:14.081 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+15:31:05.333 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+15:36:42.159 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+15:36:51.308 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+15:39:12.008 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?

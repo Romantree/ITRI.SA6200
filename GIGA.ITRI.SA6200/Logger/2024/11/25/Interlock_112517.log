@@ -1,0 +1,50 @@
+17:30:33.288 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+17:30:40.186 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+17:30:55.808 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the film loading operation ?
+17:31:14.588 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+17:31:58.472 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation?
+17:32:16.901 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the home operation?
+17:32:27.533 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] :  The Stage is not in the ready position.
+ Would you like to perform the film loading operation ?
+17:32:50.252 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+17:33:42.572 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to save the data?
+17:33:53.691 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to save the data?
+17:34:01.885 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+17:34:41.553 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the film loading operation ?
+17:36:42.680 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+17:37:10.956 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the home operation?
+17:38:22.904 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation?
+17:56:31.983 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+17:56:45.302 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation?
+17:56:46.135 [I] EventManager(Event_OnInterlockMsgEvent)[1] : 현재 시작 할 수 없는 위치 입니다.
+Ready 위치 이동 후 재시도 바랍니다.
+17:56:51.242 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+17:57:06.078 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to save the data?
+17:57:10.442 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to save the data?
+17:57:14.627 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to save the data?
+17:57:18.017 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+17:57:26.385 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation?
+17:57:33.354 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation?
+17:57:36.350 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+17:57:59.460 [I] EventManager(Event_OnInterlockMsgEvent)[1] : The Setting exceeds the allowed range. MIN:30 MAX:100
+17:58:07.871 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+17:58:13.153 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+17:58:23.133 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+17:58:24.143 [I] EventManager(Event_OnInterlockMsgEvent)[1] : 현재 시작 할 수 없는 위치 입니다.
+Ready 위치 이동 후 재시도 바랍니다.
+17:58:28.956 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation?
+17:58:38.253 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the home operation?
+17:58:46.263 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation?
+17:58:47.015 [I] EventManager(Event_OnInterlockMsgEvent)[1] : 현재 시작 할 수 없는 위치 입니다.
+Ready 위치 이동 후 재시도 바랍니다.
+17:58:49.586 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+17:59:01.967 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to proceed with the process operation?
+17:59:28.578 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the film loading operation ?
+17:59:44.788 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to proceed with the process operation?
+17:59:46.140 [I] EventManager(Event_OnInterlockMsgEvent)[1] : 현재 시작 할 수 없는 위치 입니다.
+Ready 위치 이동 후 재시도 바랍니다.
+17:59:55.014 [I] EventManager(Event_OnInterlockMsgEvent)[1] : 현재 시작 할 수 없는 위치 입니다.
+Ready 위치 이동 후 재시도 바랍니다.
+17:59:58.242 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the imprint operation?
+17:59:59.035 [I] EventManager(Event_OnInterlockMsgEvent)[1] : 현재 시작 할 수 없는 위치 입니다.
+Ready 위치 이동 후 재시도 바랍니다.

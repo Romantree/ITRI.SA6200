@@ -1,0 +1,8 @@
+11:57:34.102 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+11:57:40.357 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+11:57:53.301 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+11:58:02.557 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] :  The Stage is not in the ready position.
+ Would you like to perform the film loading operation ?
+11:58:18.132 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+11:58:30.397 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the film loading operation ?
+11:58:43.694 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?

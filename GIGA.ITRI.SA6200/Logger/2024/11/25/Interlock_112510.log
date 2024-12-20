@@ -1,0 +1,4 @@
+10:04:31.223 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+10:06:58.692 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+10:07:03.848 [I] EventManager(Event_OnInterlockMsgEvent)[1] : Would you like to start the program?
+10:09:15.497 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GIGA.ITRI.SA6200.UI", "GIGA.ITRI.SA6200.UI\GIGA.ITRI.SA6200.UI.csproj", "{765A8B77-126C-4BDC-BEC4-8B4EB515630D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{765A8B77-126C-4BDC-BEC4-8B4EB515630D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765A8B77-126C-4BDC-BEC4-8B4EB515630D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765A8B77-126C-4BDC-BEC4-8B4EB515630D}.Debug|x64.ActiveCfg = Debug|x64
+		{765A8B77-126C-4BDC-BEC4-8B4EB515630D}.Debug|x64.Build.0 = Debug|x64
+		{765A8B77-126C-4BDC-BEC4-8B4EB515630D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765A8B77-126C-4BDC-BEC4-8B4EB515630D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{765A8B77-126C-4BDC-BEC4-8B4EB515630D}.Release|x64.ActiveCfg = Release|x64
+		{765A8B77-126C-4BDC-BEC4-8B4EB515630D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7A5AB75-4A98-4548-BD6C-06ADFF58D86A}
+	EndGlobalSection
+EndGlobal

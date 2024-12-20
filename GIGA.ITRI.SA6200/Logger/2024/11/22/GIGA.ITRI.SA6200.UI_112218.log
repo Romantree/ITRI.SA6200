@@ -1,0 +1,55 @@
+18:00:49.279 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:01:21.212 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:01:55.456 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:02:12.530 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:02:26.705 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:02:49.033 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:03:02.759 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:03:15.055 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:03:49.435 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:04:03.597 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:05:33.856 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:09:39.750 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:11:02.259 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:11:53.915 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:12:32.381 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:12:36.135 [E] RecipeManager(GetRecipe)[1] : 입력 문자열의 형식이 잘못되었습니다. => System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+   위치: System.DateTimeFormat.GetRealFormat(String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTimeFormat.ExpandPredefinedFormat(String format, DateTime& dateTime, DateTimeFormatInfo& dtfi, TimeSpan& offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi, TimeSpan offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTime.ToString(String format)
+   위치: GIGA.ITRI.SA6200.UI.Managers.RecipeManager.GetRecipe(RecipeType type, Int32 no) 파일 C:\000.Source\GIGA.ITRI.SA6200\GIGA.ITRI.SA6200.UI\Managers\RecipeManager.cs:줄 174
+18:12:36.822 [E] RecipeManager(GetRecipe)[1] : 입력 문자열의 형식이 잘못되었습니다. => System.FormatException: 입력 문자열의 형식이 잘못되었습니다.
+   위치: System.DateTimeFormat.GetRealFormat(String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTimeFormat.ExpandPredefinedFormat(String format, DateTime& dateTime, DateTimeFormatInfo& dtfi, TimeSpan& offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi, TimeSpan offset)
+   위치: System.DateTimeFormat.Format(DateTime dateTime, String format, DateTimeFormatInfo dtfi)
+   위치: System.DateTime.ToString(String format)
+   위치: GIGA.ITRI.SA6200.UI.Managers.RecipeManager.GetRecipe(RecipeType type, Int32 no) 파일 C:\000.Source\GIGA.ITRI.SA6200\GIGA.ITRI.SA6200.UI\Managers\RecipeManager.cs:줄 174
+18:12:52.140 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:19:41.603 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:20:00.475 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:20:19.052 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:21:38.743 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:21:58.955 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:22:48.028 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:23:06.728 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:23:58.391 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:24:10.053 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:24:55.368 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:27:05.272 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:28:19.531 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:29:22.053 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:30:39.861 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:32:31.236 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:32:49.693 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:33:24.558 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:33:41.781 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:34:12.282 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:34:29.372 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:34:44.353 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:35:09.284 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:42:14.241 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:44:42.897 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============
+18:46:45.409 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.6.25.1 ============

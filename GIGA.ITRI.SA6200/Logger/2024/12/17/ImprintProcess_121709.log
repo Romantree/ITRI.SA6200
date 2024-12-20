@@ -1,0 +1,36 @@
+09:36:38.758 [I] ImprintProcess(SetProcMsg)[16] : ================= Start Process =================
+09:36:38.758 [I] ImprintProcess(SetProcMsg)[16] : Mode : AUTO
+09:36:39.441 [I] ImprintProcess(SetProcMsg)[16] : Stage : [Ready] Position Move
+09:36:39.444 [I] ImprintProcess(SetProcMsg)[16] : StageX Axis Movement : Cur:0.000mm Move:285.000mm
+09:36:39.444 [I] ImprintProcess(SetProcMsg)[16] : Demold Axis Movement : Cur:0.000mm Move:0.000mm Bypass
+09:36:45.355 [I] ImprintProcess(SetProcMsg)[16] : StageX Axis Movement Complete : Cur:285.000mm Move:285.000mm
+09:36:45.478 [I] ImprintProcess(SetProcMsg)[16] : ROLL GAP DOWN Enter
+09:36:45.540 [I] ImprintProcess(SetProcMsg)[16] : ROLL GAP DOWN
+09:36:45.541 [I] ImprintProcess(SetProcMsg)[16] : Delay Time 2000 msec
+09:36:47.604 [I] ImprintProcess(SetProcMsg)[16] : Roll Gap : [Imrpint] Position Move
+09:36:47.617 [I] ImprintProcess(SetProcMsg)[16] : RollGapRight Axis Movement : Cur:0.000mm Move:-5.000mm
+09:36:47.618 [I] ImprintProcess(SetProcMsg)[16] : RollGapLeft Axis Movement : Cur:0.000mm Move:-5.000mm
+09:36:47.864 [I] ImprintProcess(SetProcMsg)[16] : RollGapRight Axis Movement Complete : Cur:-5.000mm Move:-5.000mm
+09:36:47.864 [I] ImprintProcess(SetProcMsg)[16] : RollGapLeft Axis Movement Complete : Cur:-5.000mm Move:-5.000mm
+09:36:47.925 [I] ImprintProcess(SetProcMsg)[16] : StageX : [Inch08] Position Move
+09:36:47.936 [I] ImprintProcess(SetProcMsg)[16] : StageX Axis Movement : Cur:285.000mm Move:370.000mm
+09:36:47.936 [I] ImprintProcess(SetProcMsg)[16] : Demold Axis Movement : Cur:0.000mm Move:85.000mm
+09:36:47.936 [I] ImprintProcess(SetProcMsg)[16] : Delay Time 50 msec
+09:36:50.986 [I] ImprintProcess(SetProcMsg)[16] : StageX Axis Movement Complete : Cur:370.000mm Move:370.000mm
+09:36:51.049 [I] ImprintProcess(SetProcMsg)[16] : Demold Axis Movement Complete : Cur:85.000mm Move:85.000mm
+09:36:51.172 [I] ImprintProcess(SetProcMsg)[16] : StageX : [Imrpint] Position Move
+09:36:51.173 [I] ImprintProcess(SetProcMsg)[16] : StageX Axis Movement : Cur:370.000mm Move:605.000mm
+09:36:51.174 [I] ImprintProcess(SetProcMsg)[16] : Demold Axis Movement : Cur:85.000mm Move:320.000mm
+09:36:51.174 [I] ImprintProcess(SetProcMsg)[16] : Delay Time 50 msec
+09:36:56.065 [I] ImprintProcess(SetProcMsg)[16] : StageX Axis Movement Complete : Cur:605.000mm Move:605.000mm
+09:36:56.065 [I] ImprintProcess(SetProcMsg)[16] : Demold Axis Movement Complete : Cur:320.000mm Move:320.000mm
+09:36:56.496 [I] ImprintProcess(SetProcMsg)[16] : Roll Gap : [Demold] Position Move
+09:36:56.497 [I] ImprintProcess(SetProcMsg)[16] : RollGapRight Axis Movement : Cur:-5.000mm Move:-5.000mm Bypass
+09:36:56.498 [I] ImprintProcess(SetProcMsg)[16] : RollGapLeft Axis Movement : Cur:-5.000mm Move:-5.000mm Bypass
+09:36:56.683 [I] ImprintProcess(SetProcMsg)[16] : StageX : [Demold] Position Move
+09:36:56.684 [I] ImprintProcess(SetProcMsg)[16] : StageX Axis Movement : Cur:605.000mm Move:285.000mm
+09:36:56.685 [I] ImprintProcess(SetProcMsg)[16] : Demold Axis Movement : Cur:320.000mm Move:0.000mm
+09:36:56.686 [I] ImprintProcess(SetProcMsg)[16] : Delay Time 50 msec
+09:37:03.284 [I] ImprintProcess(SetProcMsg)[16] : StageX Axis Movement Complete : Cur:285.000mm Move:285.000mm
+09:37:03.284 [I] ImprintProcess(SetProcMsg)[16] : Demold Axis Movement Complete : Cur:0.000mm Move:0.000mm
+09:37:03.594 [I] ImprintProcess(SetProcMsg)[16] : ================= End Process =================

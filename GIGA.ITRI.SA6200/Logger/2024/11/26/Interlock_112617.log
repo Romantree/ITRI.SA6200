@@ -1,0 +1,20 @@
+17:00:50.240 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation?
+17:01:08.742 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation?
+17:17:23.632 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+17:18:39.806 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the imprint operation?
+17:19:12.848 [I] EventManager(Event_OnInterlockMsgEvent)[1] : The current lcation cannot be started.
+Please move to the Ready location and try again.
+17:19:20.705 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation ?
+17:20:38.034 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation?
+17:20:50.329 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation?
+17:20:53.425 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+17:20:59.710 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+17:24:47.043 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the film loading operation ?
+17:25:48.156 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the imprint operation?
+17:25:50.171 [I] EventManager(Event_OnInterlockMsgEvent)[1] : The current lcation cannot be started.
+Please move to the Ready location and try again.
+17:26:01.513 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation ?
+17:54:34.398 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the imprint operation?
+17:57:54.920 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+17:58:00.820 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+17:59:34.767 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?

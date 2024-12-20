@@ -1,0 +1,674 @@
+[
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_MAIN_CDA_RESSURE_01",
+    "Type": 0,
+    "Address": "X000",
+    "Name": "MAIN CDA PRESSURE #1",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_MAIN_CDA_RESSURE_02",
+    "Type": 0,
+    "Address": "X001",
+    "Name": "MAIN CDA PRESSURE #2",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_RESET_SW",
+    "Type": 0,
+    "Address": "X003",
+    "Name": "RESET S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_LIFT_PIN_UP_SW",
+    "Type": 0,
+    "Address": "X004",
+    "Name": "LIFT PIN UP S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_LIFT_PIN_DOWN_SW",
+    "Type": 0,
+    "Address": "X005",
+    "Name": "LIFT PIN DOWN S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_FILM_CLAMP_UP_SW",
+    "Type": 0,
+    "Address": "X006",
+    "Name": "FILM CLAMP UP S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_FILM_CLAMP_DOWN_SW",
+    "Type": 0,
+    "Address": "X007",
+    "Name": "FILM CLAMP DOWN S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_ROLL_CLAMP_UP_SW",
+    "Type": 0,
+    "Address": "X008",
+    "Name": "ROLL CLAMP UP S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_ROLL_CLAMP_DOWN_SW",
+    "Type": 0,
+    "Address": "X009",
+    "Name": "ROLL CLAMP DOWN S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_VACUUM_INCH_06_SW",
+    "Type": 0,
+    "Address": "X00A",
+    "Name": "VACUUM 06 INCH S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_VACUUM_INCH_08_SW",
+    "Type": 0,
+    "Address": "X00B",
+    "Name": "VACUUM 08 INCH S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_EMO_01",
+    "Type": 0,
+    "Address": "X00C",
+    "Name": "EMO #1",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_EMO_02",
+    "Type": 0,
+    "Address": "X00D",
+    "Name": "EMO #2",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_EMO_03",
+    "Type": 0,
+    "Address": "X00E",
+    "Name": "EMO #3",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_EMO_04",
+    "Type": 0,
+    "Address": "X00F",
+    "Name": "EMO #4",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_DOOR_LOCK_01",
+    "Type": 0,
+    "Address": "X010",
+    "Name": "FRONT DOOR LOCK #1",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_DOOR_LOCK_02",
+    "Type": 0,
+    "Address": "X011",
+    "Name": "RIGHT DOOR LOCK #2",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_DOOR_LOCK_03",
+    "Type": 0,
+    "Address": "X012",
+    "Name": "RIGHT DOOR LOCK #3",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_DOOR_LOCK_04",
+    "Type": 0,
+    "Address": "X013",
+    "Name": "BACK DOOR LOCK #4",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_DOOR_LOCK_05",
+    "Type": 0,
+    "Address": "X014",
+    "Name": "BACK DOOR LOCK #5",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_DOOR_LOCK_06",
+    "Type": 0,
+    "Address": "X015",
+    "Name": "LEFT DOOR LOCK #6",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_DOOR_LOCK_07",
+    "Type": 0,
+    "Address": "X016",
+    "Name": "LEFT DOOR LOCK #7",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_MC_ON",
+    "Type": 0,
+    "Address": "X017",
+    "Name": "MC ON",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_ION_BLOWER_RUN",
+    "Type": 0,
+    "Address": "X018",
+    "Name": "ION BLOWER RUN",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_ION_BLOWER_ALARM",
+    "Type": 0,
+    "Address": "X019",
+    "Name": "ION BLOWER ALARM",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_UV_LAMP_READY",
+    "Type": 0,
+    "Address": "X01B",
+    "Name": "UV LAMP READY",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_UV_LAMP_ON",
+    "Type": 0,
+    "Address": "X01C",
+    "Name": "UV LAMP ON",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_UV_LAMP_ERROR",
+    "Type": 0,
+    "Address": "X01D",
+    "Name": "UV LAMP ERROR",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_ROLL_GAP_LEFT_UP",
+    "Type": 0,
+    "Address": "X020",
+    "Name": "ROLL GAP LEFT UP",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_ROLL_GAP_RIGHT_UP",
+    "Type": 0,
+    "Address": "X021",
+    "Name": "ROLL GAP RIGHT UP",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_LIFT_PIN_UP",
+    "Type": 0,
+    "Address": "X024",
+    "Name": "LIFT PIN UP",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_LIFT_PIN_DOWN",
+    "Type": 0,
+    "Address": "X025",
+    "Name": "LIFT PIN DOWN",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_UV_CYLINDER_UP",
+    "Type": 0,
+    "Address": "X026",
+    "Name": "UV CYLINDERE UP",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_UV_CYLINDER_DOWN",
+    "Type": 0,
+    "Address": "X027",
+    "Name": "UV CYLINDERE DOWN",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_FILM_CLAMP_UP",
+    "Type": 0,
+    "Address": "X028",
+    "Name": "FILM CLAMP UP",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_FILM_CLAMP_DOWN",
+    "Type": 0,
+    "Address": "X029",
+    "Name": "FILM CLAMP DOWN",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_ROLL_CLAMP_UP",
+    "Type": 0,
+    "Address": "X02A",
+    "Name": "ROLL CLAMP UP",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_ROLL_CLAMP_DOWN",
+    "Type": 0,
+    "Address": "X02B",
+    "Name": "ROLL CLAMP DOWN",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_VACUUM_06",
+    "Type": 0,
+    "Address": "X02C",
+    "Name": "VACUUM 06 INCH",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "X_VACUUM_08",
+    "Type": 0,
+    "Address": "X02D",
+    "Name": "VACUUM 08 INCH",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "TOWER_LAMP_RED",
+    "Type": 1,
+    "Address": "Y000",
+    "Name": "TOWER LAMP RED",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "TOWER_LAMP_YELLOW",
+    "Type": 1,
+    "Address": "Y001",
+    "Name": "TOWER LAMP YELLOW",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "TOWER_LAMP_GREEN",
+    "Type": 1,
+    "Address": "Y002",
+    "Name": "TOWER LAMP GREEN",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "RESET_SW",
+    "Type": 1,
+    "Address": "Y003",
+    "Name": "RESET S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "LIFT_PIN_UP_SW",
+    "Type": 1,
+    "Address": "Y004",
+    "Name": "LIFT PIN UP S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "LIFT_PIN_DOWN_SW",
+    "Type": 1,
+    "Address": "Y005",
+    "Name": "LIFT PIN DOWN S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "FILM_CLAMP_UP_SW",
+    "Type": 1,
+    "Address": "Y006",
+    "Name": "FILM CLAMP UP S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "FILM_CLAMP_DOWN_SW",
+    "Type": 1,
+    "Address": "Y007",
+    "Name": "FILM CLAMP DOWN S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "ROLL_CLAMP_UP_SW",
+    "Type": 1,
+    "Address": "Y008",
+    "Name": "ROLL CLAMP UP S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "ROLL_CLAMP_DOWN_SW",
+    "Type": 1,
+    "Address": "Y009",
+    "Name": "ROLL CLAMP DOWN S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "VACUUM_INCH_06_SW",
+    "Type": 1,
+    "Address": "Y00A",
+    "Name": "VACUUM 06 S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "VACUUM_INCH_08_SW",
+    "Type": 1,
+    "Address": "Y00B",
+    "Name": "VACUUM 08 S/W",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "EQ_LAMP_ON",
+    "Type": 1,
+    "Address": "Y00C",
+    "Name": "EQUIPMENT LAMP ON",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "BUZZER_01",
+    "Type": 1,
+    "Address": "Y00E",
+    "Name": "BUZZER #1",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "BUZZER_02",
+    "Type": 1,
+    "Address": "Y00F",
+    "Name": "BUZZER #2",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "DOOR_LOCK_01",
+    "Type": 1,
+    "Address": "Y010",
+    "Name": "FRONT DOOR LOCK #1",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "DOOR_LOCK_02",
+    "Type": 1,
+    "Address": "Y011",
+    "Name": "RIGHT DOOR LOCK #2",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "DOOR_LOCK_03",
+    "Type": 1,
+    "Address": "Y012",
+    "Name": "RIGHT DOOR LOCK #3",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "DOOR_LOCK_04",
+    "Type": 1,
+    "Address": "Y013",
+    "Name": "BACK DOOR LOCK #4",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "DOOR_LOCK_05",
+    "Type": 1,
+    "Address": "Y014",
+    "Name": "BACK DOOR LOCK #5",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "DOOR_LOCK_06",
+    "Type": 1,
+    "Address": "Y015",
+    "Name": "LEFT DOOR LOCK #6",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "DOOR_LOCK_07",
+    "Type": 1,
+    "Address": "Y016",
+    "Name": "LEFT DOOR LOCK #7",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "MC_ON",
+    "Type": 1,
+    "Address": "Y017",
+    "Name": "MC ON",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "ION_BLOWER_RUN",
+    "Type": 1,
+    "Address": "Y018",
+    "Name": "ION BLOWER RUN",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "ION_BLOWER_TIP_CLENING",
+    "Type": 1,
+    "Address": "Y019",
+    "Name": "ION BLOWER TIP CLENING",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "UV_LAMP_RUN",
+    "Type": 1,
+    "Address": "Y01A",
+    "Name": "UV LAMP RUN",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "LOADCELL_ZERO",
+    "Type": 1,
+    "Address": "Y01B",
+    "Name": "LOADCELL ZERO",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "ROLL_GAP_RIGHT_UP",
+    "Type": 1,
+    "Address": "Y020",
+    "Name": "ROLL GAP RIGHT UP",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "ROLL_GAP_RIGHT_DOWN",
+    "Type": 1,
+    "Address": "Y021",
+    "Name": "ROLL GAP RIGHT DOWN",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "ROLL_GAP_LEFT_UP",
+    "Type": 1,
+    "Address": "Y022",
+    "Name": "ROLL GAP LEFT UP",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "ROLL_GAP_LEFT_DOWN",
+    "Type": 1,
+    "Address": "Y023",
+    "Name": "ROLL GAP LEFT DOWN",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "LIFT_PIN_UP",
+    "Type": 1,
+    "Address": "Y024",
+    "Name": "LIFT PIN UP",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "LIFT_PIN_DOWN",
+    "Type": 1,
+    "Address": "Y025",
+    "Name": "LIFT PIN DOWN",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "UV_CYLINDER_UP",
+    "Type": 1,
+    "Address": "Y026",
+    "Name": "UV CYLINDERE UP",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "UV_CYLINDER_DOWN",
+    "Type": 1,
+    "Address": "Y027",
+    "Name": "UV CYLINDERE DOWN",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "FILM_CLAMP_UP",
+    "Type": 1,
+    "Address": "Y028",
+    "Name": "FILM CLAMP UP",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "FILM_CLAMP_DOWN",
+    "Type": 1,
+    "Address": "Y029",
+    "Name": "FILM CLAMP DOWN",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "ROLL_CLAMP_UP",
+    "Type": 1,
+    "Address": "Y02A",
+    "Name": "ROLL CLAMP UP",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "ROLL_CLAMP_DOWN",
+    "Type": 1,
+    "Address": "Y02B",
+    "Name": "ROLL CLAMP DOWN",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "VACUUM_ON_06",
+    "Type": 1,
+    "Address": "Y02C",
+    "Name": "VACUUM 06 INCH ON",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "VACUUM_OFF_06",
+    "Type": 1,
+    "Address": "Y02D",
+    "Name": "VACUUM 06 INCH OFF",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "VACUUM_ON_08",
+    "Type": 1,
+    "Address": "Y02E",
+    "Name": "VACUUM 08 INCH ON",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "VACUUM_OFF_08",
+    "Type": 1,
+    "Address": "Y02F",
+    "Name": "VACUUM 08 INCH OFF",
+    "SignalType": 0
+  },
+  {
+    "$type": "GIGA.ITRI.SA6200.UI.Managers.IoSettingData, GIGA.ITRI.SA6200.UI",
+    "Key": "UV_LAMP_COLLING",
+    "Type": 1,
+    "Address": "Y030",
+    "Name": "UV LAMP COLLING",
+    "SignalType": 0
+  }
+]

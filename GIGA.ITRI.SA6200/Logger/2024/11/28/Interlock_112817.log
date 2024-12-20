@@ -1,0 +1,12 @@
+17:15:47.219 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+17:16:06.919 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the film loading operation ?
+17:17:10.259 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation?
+17:17:15.107 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation?
+17:20:55.765 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+17:21:13.682 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?
+17:51:31.384 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+17:52:08.065 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+17:54:09.141 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the film loading operation ?
+17:56:30.052 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the Imprint operation?
+17:56:34.376 [I] EventManager(Event_OnInterlockMsgEvent)[1] : Cannot start from the current position.\r\nPlease move to the Ready position and try again

@@ -1,0 +1,11 @@
+17:00:31.345 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the demold operation ?
+17:00:50.296 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+17:03:54.864 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the imprint operation?
+17:04:45.165 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+17:04:59.192 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] :  The Stage is not in the ready position.
+ Would you like to perform the film loading operation ?
+17:05:46.028 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+17:06:03.514 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to proceed with the process operation?
+17:06:22.667 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+17:06:24.595 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+17:06:29.340 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to proceed with the process operation?

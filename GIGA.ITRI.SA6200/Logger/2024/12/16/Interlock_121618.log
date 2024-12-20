@@ -1,0 +1,5 @@
+18:20:12.603 [I] EventManager(Event_OnInterlockMsgEvent)[1] : Cannot start from the current position.\r\nPlease move to the Ready position and try again
+18:20:20.177 [I] EventManager(Event_OnInterlockMsgEvent)[1] : Cannot start from the current position.\r\nPlease move to the Ready position and try again
+18:20:24.052 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?
+18:20:34.770 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?

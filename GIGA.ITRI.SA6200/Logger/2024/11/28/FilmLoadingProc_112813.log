@@ -1,0 +1,17 @@
+13:52:36.168 [I] FilmLoadProc(SetProcMsg)[13] : ================= Start Process =================
+13:52:36.809 [I] FilmLoadProc(SetProcMsg)[13] : RollGapRight 축 이동 : Cur:0.000mm Move:-1.000mm
+13:52:36.809 [I] FilmLoadProc(SetProcMsg)[13] : RollGapLeft 축 이동 : Cur:0.000mm Move:-1.000mm
+13:52:37.047 [I] FilmLoadProc(SetProcMsg)[13] : RollGapRight 축 이동 완료 : Cur:-1.000mm Move:-1.000mm
+13:52:37.047 [I] FilmLoadProc(SetProcMsg)[13] : RollGapLeft 축 이동 완료 : Cur:-1.000mm Move:-1.000mm
+13:52:37.127 [I] FilmLoadProc(SetProcMsg)[13] : Ready Pos Move Enter
+13:52:37.135 [I] FilmLoadProc(SetProcMsg)[13] : StageX 축 이동 : Cur:0.000mm Move:285.000mm
+13:52:37.136 [I] FilmLoadProc(SetProcMsg)[13] : Demold 축 이동 : Cur:0.000mm Move:0.000mm Bypass
+13:52:43.522 [I] FilmLoadProc(SetProcMsg)[13] : StageX 축 이동 완료 : Cur:285.000mm Move:285.000mm
+13:52:43.756 [I] FilmLoadProc(SetProcMsg)[13] : ROLL GAP DOWN Enter
+13:52:43.835 [I] FilmLoadProc(SetProcMsg)[13] : ROLL GAP DOWN
+13:52:43.836 [I] FilmLoadProc(SetProcMsg)[13] : Delay Time 2000 msec
+13:52:45.923 [I] FilmLoadProc(SetProcMsg)[13] : RollGapRight 축 이동 : Cur:-1.000mm Move:-5.000mm
+13:52:45.923 [I] FilmLoadProc(SetProcMsg)[13] : RollGapLeft 축 이동 : Cur:-1.000mm Move:-5.000mm
+13:52:46.159 [I] FilmLoadProc(SetProcMsg)[13] : RollGapRight 축 이동 완료 : Cur:-5.000mm Move:-5.000mm
+13:52:46.159 [I] FilmLoadProc(SetProcMsg)[13] : RollGapLeft 축 이동 완료 : Cur:-5.000mm Move:-5.000mm
+13:52:46.236 [I] FilmLoadProc(SetProcMsg)[13] : ================= End Process =================

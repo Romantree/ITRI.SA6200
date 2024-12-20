@@ -1,0 +1,3 @@
+13:49:16.422 [I] DeviceManager(SetRollPressScale)[1] : Roll Gap Press Scale : 0.05 = 0.02
+13:49:16.422 [I] DeviceManager(SetDemoldScale)[1] : Demold Scale : 0 = 0.001
+13:52:21.350 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.12.2.1 ============

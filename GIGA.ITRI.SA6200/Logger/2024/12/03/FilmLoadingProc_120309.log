@@ -1,0 +1,131 @@
+09:14:30.712 [I] FilmLoadProc(SetProcMsg)[12] : ================= Start Process =================
+09:14:31.346 [I] FilmLoadProc(SetProcMsg)[12] : RollGapRight Axis Movement : Cur:0.000mm Move:-1.000mm
+09:14:31.347 [I] FilmLoadProc(SetProcMsg)[12] : RollGapLeft Axis Movement : Cur:0.000mm Move:-1.000mm
+09:14:31.585 [I] FilmLoadProc(SetProcMsg)[12] : RollGapRight Axis Movement Complete : Cur:-1.000mm Move:-1.000mm
+09:14:31.585 [I] FilmLoadProc(SetProcMsg)[12] : RollGapLeft Axis Movement Complete : Cur:-1.000mm Move:-1.000mm
+09:14:31.741 [I] FilmLoadProc(SetProcMsg)[12] : Home Pos Move Enter
+09:14:31.744 [I] FilmLoadProc(SetProcMsg)[12] : StageX Axis Movement : Cur:0.000mm Move:0.000mm Bypass
+09:14:31.744 [I] FilmLoadProc(SetProcMsg)[12] : Demold Axis Movement : Cur:0.000mm Move:0.000mm Bypass
+09:14:32.134 [I] FilmLoadProc(SetProcMsg)[12] : ================= End Process =================
+09:14:34.318 [I] FilmLoadProc(SetProcMsg)[20] : ================= Start Process =================
+09:14:34.946 [I] FilmLoadProc(SetProcMsg)[20] : RollGapRight Axis Movement : Cur:-1.000mm Move:-1.000mm Bypass
+09:14:34.947 [I] FilmLoadProc(SetProcMsg)[20] : RollGapLeft Axis Movement : Cur:-1.000mm Move:-1.000mm Bypass
+09:14:35.100 [I] FilmLoadProc(SetProcMsg)[20] : Ready Pos Move Enter
+09:14:35.100 [I] FilmLoadProc(SetProcMsg)[20] : StageX Axis Movement : Cur:0.000mm Move:285.000mm
+09:14:35.101 [I] FilmLoadProc(SetProcMsg)[20] : Demold Axis Movement : Cur:0.000mm Move:0.000mm Bypass
+09:14:41.510 [I] FilmLoadProc(SetProcMsg)[20] : StageX Axis Movement Complete : Cur:285.000mm Move:285.000mm
+09:14:41.742 [I] FilmLoadProc(SetProcMsg)[20] : ROLL GAP DOWN Enter
+09:14:41.825 [I] FilmLoadProc(SetProcMsg)[20] : ROLL GAP DOWN
+09:14:41.826 [I] FilmLoadProc(SetProcMsg)[20] : Delay Time 2000 msec
+09:14:43.912 [I] FilmLoadProc(SetProcMsg)[20] : RollGapRight Axis Movement : Cur:-1.000mm Move:-5.000mm
+09:14:43.912 [I] FilmLoadProc(SetProcMsg)[20] : RollGapLeft Axis Movement : Cur:-1.000mm Move:-5.000mm
+09:14:44.148 [I] FilmLoadProc(SetProcMsg)[20] : RollGapRight Axis Movement Complete : Cur:-5.000mm Move:-5.000mm
+09:14:44.149 [I] FilmLoadProc(SetProcMsg)[20] : RollGapLeft Axis Movement Complete : Cur:-5.000mm Move:-5.000mm
+09:14:44.225 [I] FilmLoadProc(SetProcMsg)[20] : ================= End Process =================
+09:14:54.851 [I] FilmLoadProc(SetProcMsg)[21] : ================= Start Process =================
+09:14:55.158 [I] FilmLoadProc(SetProcMsg)[21] : ROLL GAP UP Enter
+09:14:55.236 [I] FilmLoadProc(SetProcMsg)[21] : ROLL GAP UP
+09:14:55.547 [I] FilmLoadProc(SetProcMsg)[21] : RollGapRight Axis Movement : Cur:-5.000mm Move:-1.000mm
+09:14:55.548 [I] FilmLoadProc(SetProcMsg)[21] : RollGapLeft Axis Movement : Cur:-5.000mm Move:-1.000mm
+09:14:55.781 [I] FilmLoadProc(SetProcMsg)[21] : RollGapRight Axis Movement Complete : Cur:-1.000mm Move:-1.000mm
+09:14:55.782 [I] FilmLoadProc(SetProcMsg)[21] : RollGapLeft Axis Movement Complete : Cur:-1.000mm Move:-1.000mm
+09:14:55.935 [I] FilmLoadProc(SetProcMsg)[21] : Home Pos Move Enter
+09:14:55.936 [I] FilmLoadProc(SetProcMsg)[21] : StageX Axis Movement : Cur:285.000mm Move:0.000mm
+09:14:55.936 [I] FilmLoadProc(SetProcMsg)[21] : Demold Axis Movement : Cur:0.000mm Move:0.000mm Bypass
+09:15:01.540 [I] FilmLoadProc(SetProcMsg)[21] : StageX Axis Movement Complete : Cur:0.000mm Move:0.000mm
+09:15:01.854 [I] FilmLoadProc(SetProcMsg)[21] : ================= End Process =================
+09:15:10.025 [I] FilmLoadProc(SetProcMsg)[22] : ================= Start Process =================
+09:15:10.644 [I] FilmLoadProc(SetProcMsg)[22] : RollGapRight Axis Movement : Cur:-1.000mm Move:-1.000mm Bypass
+09:15:10.644 [I] FilmLoadProc(SetProcMsg)[22] : RollGapLeft Axis Movement : Cur:-1.000mm Move:-1.000mm Bypass
+09:15:10.800 [I] FilmLoadProc(SetProcMsg)[22] : Ready Pos Move Enter
+09:15:10.801 [I] FilmLoadProc(SetProcMsg)[22] : StageX Axis Movement : Cur:0.000mm Move:285.000mm
+09:15:10.801 [I] FilmLoadProc(SetProcMsg)[22] : Demold Axis Movement : Cur:0.000mm Move:0.000mm Bypass
+09:15:17.184 [I] FilmLoadProc(SetProcMsg)[22] : StageX Axis Movement Complete : Cur:285.000mm Move:285.000mm
+09:15:17.416 [I] FilmLoadProc(SetProcMsg)[22] : ROLL GAP DOWN Enter
+09:15:17.493 [I] FilmLoadProc(SetProcMsg)[22] : ROLL GAP DOWN
+09:15:17.493 [I] FilmLoadProc(SetProcMsg)[22] : Delay Time 2000 msec
+09:15:19.573 [I] FilmLoadProc(SetProcMsg)[22] : RollGapRight Axis Movement : Cur:-1.000mm Move:-5.000mm
+09:15:19.574 [I] FilmLoadProc(SetProcMsg)[22] : RollGapLeft Axis Movement : Cur:-1.000mm Move:-5.000mm
+09:15:19.809 [I] FilmLoadProc(SetProcMsg)[22] : RollGapRight Axis Movement Complete : Cur:-5.000mm Move:-5.000mm
+09:15:19.810 [I] FilmLoadProc(SetProcMsg)[22] : RollGapLeft Axis Movement Complete : Cur:-5.000mm Move:-5.000mm
+09:15:19.887 [I] FilmLoadProc(SetProcMsg)[22] : ================= End Process =================
+09:15:24.272 [I] FilmLoadProc(SetProcMsg)[23] : ================= Start Process =================
+09:15:24.585 [I] FilmLoadProc(SetProcMsg)[23] : ROLL GAP UP Enter
+09:15:24.663 [I] FilmLoadProc(SetProcMsg)[23] : ROLL GAP UP
+09:15:24.970 [I] FilmLoadProc(SetProcMsg)[23] : RollGapRight Axis Movement : Cur:-5.000mm Move:-1.000mm
+09:15:24.970 [I] FilmLoadProc(SetProcMsg)[23] : RollGapLeft Axis Movement : Cur:-5.000mm Move:-1.000mm
+09:15:25.204 [I] FilmLoadProc(SetProcMsg)[23] : RollGapRight Axis Movement Complete : Cur:-1.000mm Move:-1.000mm
+09:15:25.205 [I] FilmLoadProc(SetProcMsg)[23] : RollGapLeft Axis Movement Complete : Cur:-1.000mm Move:-1.000mm
+09:15:25.358 [I] FilmLoadProc(SetProcMsg)[23] : Home Pos Move Enter
+09:15:25.359 [I] FilmLoadProc(SetProcMsg)[23] : StageX Axis Movement : Cur:285.000mm Move:0.000mm
+09:15:25.359 [I] FilmLoadProc(SetProcMsg)[23] : Demold Axis Movement : Cur:0.000mm Move:0.000mm Bypass
+09:15:30.972 [I] FilmLoadProc(SetProcMsg)[23] : StageX Axis Movement Complete : Cur:0.000mm Move:0.000mm
+09:15:31.287 [I] FilmLoadProc(SetProcMsg)[23] : ================= End Process =================
+09:27:48.359 [I] FilmLoadProc(SetProcMsg)[19] : ================= Start Process =================
+09:27:48.997 [I] FilmLoadProc(SetProcMsg)[19] : RollGapRight Axis Movement : Cur:0.000mm Move:-1.000mm
+09:27:48.997 [I] FilmLoadProc(SetProcMsg)[19] : RollGapLeft Axis Movement : Cur:0.000mm Move:-1.000mm
+09:27:49.232 [I] FilmLoadProc(SetProcMsg)[19] : RollGapRight Axis Movement Complete : Cur:-1.000mm Move:-1.000mm
+09:27:49.233 [I] FilmLoadProc(SetProcMsg)[19] : RollGapLeft Axis Movement Complete : Cur:-1.000mm Move:-1.000mm
+09:27:49.310 [I] FilmLoadProc(SetProcMsg)[19] : Ready Pos Move Enter
+09:27:49.310 [I] FilmLoadProc(SetProcMsg)[19] : StageX Axis Movement : Cur:0.000mm Move:285.000mm
+09:27:49.310 [I] FilmLoadProc(SetProcMsg)[19] : Demold Axis Movement : Cur:0.000mm Move:0.000mm Bypass
+09:27:55.696 [I] FilmLoadProc(SetProcMsg)[19] : StageX Axis Movement Complete : Cur:285.000mm Move:285.000mm
+09:27:55.930 [I] FilmLoadProc(SetProcMsg)[19] : ROLL GAP DOWN Enter
+09:27:56.007 [I] FilmLoadProc(SetProcMsg)[19] : ROLL GAP DOWN
+09:27:56.009 [I] FilmLoadProc(SetProcMsg)[19] : Delay Time 2000 msec
+09:27:58.091 [I] FilmLoadProc(SetProcMsg)[19] : RollGapRight Axis Movement : Cur:-1.000mm Move:-5.000mm
+09:27:58.092 [I] FilmLoadProc(SetProcMsg)[19] : RollGapLeft Axis Movement : Cur:-1.000mm Move:-5.000mm
+09:27:58.324 [I] FilmLoadProc(SetProcMsg)[19] : RollGapRight Axis Movement Complete : Cur:-5.000mm Move:-5.000mm
+09:27:58.325 [I] FilmLoadProc(SetProcMsg)[19] : RollGapLeft Axis Movement Complete : Cur:-5.000mm Move:-5.000mm
+09:27:58.400 [I] FilmLoadProc(SetProcMsg)[19] : ================= End Process =================
+09:28:00.196 [I] FilmLoadProc(SetProcMsg)[11] : ================= Start Process =================
+09:28:00.515 [I] FilmLoadProc(SetProcMsg)[11] : ROLL GAP UP Enter
+09:28:00.592 [I] FilmLoadProc(SetProcMsg)[11] : ROLL GAP UP
+09:28:00.899 [I] FilmLoadProc(SetProcMsg)[11] : RollGapRight Axis Movement : Cur:-5.000mm Move:-1.000mm
+09:28:00.900 [I] FilmLoadProc(SetProcMsg)[11] : RollGapLeft Axis Movement : Cur:-5.000mm Move:-1.000mm
+09:28:01.131 [I] FilmLoadProc(SetProcMsg)[11] : RollGapRight Axis Movement Complete : Cur:-1.000mm Move:-1.000mm
+09:28:01.132 [I] FilmLoadProc(SetProcMsg)[11] : RollGapLeft Axis Movement Complete : Cur:-1.000mm Move:-1.000mm
+09:28:01.287 [I] FilmLoadProc(SetProcMsg)[11] : Home Pos Move Enter
+09:28:01.294 [I] FilmLoadProc(SetProcMsg)[11] : StageX Axis Movement : Cur:285.000mm Move:0.000mm
+09:28:01.295 [I] FilmLoadProc(SetProcMsg)[11] : Demold Axis Movement : Cur:0.000mm Move:0.000mm Bypass
+09:28:06.913 [I] FilmLoadProc(SetProcMsg)[11] : StageX Axis Movement Complete : Cur:0.000mm Move:0.000mm
+09:28:07.223 [I] FilmLoadProc(SetProcMsg)[11] : ================= End Process =================
+09:29:08.586 [I] FilmLoadProc(SetProcMsg)[11] : ================= Start Process =================
+09:29:09.215 [I] FilmLoadProc(SetProcMsg)[11] : RollGapRight Axis Movement : Cur:-1.000mm Move:-1.000mm Bypass
+09:29:09.216 [I] FilmLoadProc(SetProcMsg)[11] : RollGapLeft Axis Movement : Cur:-1.000mm Move:-1.000mm Bypass
+09:29:09.370 [I] FilmLoadProc(SetProcMsg)[11] : Ready Pos Move Enter
+09:29:09.371 [I] FilmLoadProc(SetProcMsg)[11] : StageX Axis Movement : Cur:0.000mm Move:285.000mm
+09:29:09.372 [I] FilmLoadProc(SetProcMsg)[11] : Demold Axis Movement : Cur:0.000mm Move:0.000mm Bypass
+09:29:15.756 [I] FilmLoadProc(SetProcMsg)[11] : StageX Axis Movement Complete : Cur:285.000mm Move:285.000mm
+09:29:15.915 [I] FilmLoadProc(SetProcMsg)[11] : Film Loading Pos Move Enter
+09:29:15.915 [I] FilmLoadProc(SetProcMsg)[11] : StageX Axis Movement : Cur:285.000mm Move:605.000mm
+09:29:15.915 [I] FilmLoadProc(SetProcMsg)[11] : Demold Axis Movement : Cur:0.000mm Move:320.000mm
+09:29:15.915 [I] FilmLoadProc(SetProcMsg)[11] : Delay Time 50 msec
+09:29:27.733 [I] FilmLoadProc(SetProcMsg)[11] : StageX Axis Movement Complete : Cur:605.000mm Move:605.000mm
+09:29:27.809 [I] FilmLoadProc(SetProcMsg)[11] : Demold Axis Movement Complete : Cur:320.000mm Move:320.000mm
+09:29:27.886 [I] FilmLoadProc(SetProcMsg)[11] : ROLL GAP DOWN Enter
+09:29:27.963 [I] FilmLoadProc(SetProcMsg)[11] : ROLL GAP DOWN
+09:29:27.964 [I] FilmLoadProc(SetProcMsg)[11] : Delay Time 2000 msec
+09:29:30.055 [I] FilmLoadProc(SetProcMsg)[11] : RollGapRight Axis Movement : Cur:-1.000mm Move:-5.000mm
+09:29:30.055 [I] FilmLoadProc(SetProcMsg)[11] : RollGapLeft Axis Movement : Cur:-1.000mm Move:-5.000mm
+09:29:30.291 [I] FilmLoadProc(SetProcMsg)[11] : RollGapRight Axis Movement Complete : Cur:-5.000mm Move:-5.000mm
+09:29:30.291 [I] FilmLoadProc(SetProcMsg)[11] : RollGapLeft Axis Movement Complete : Cur:-5.000mm Move:-5.000mm
+09:29:30.369 [I] FilmLoadProc(SetProcMsg)[11] : ================= End Process =================
+09:29:56.600 [I] FilmLoadProc(SetProcMsg)[12] : ================= Start Process =================
+09:29:56.917 [I] FilmLoadProc(SetProcMsg)[12] : ROLL GAP UP Enter
+09:29:56.995 [I] FilmLoadProc(SetProcMsg)[12] : ROLL GAP UP
+09:29:57.305 [I] FilmLoadProc(SetProcMsg)[12] : RollGapRight Axis Movement : Cur:-5.000mm Move:-1.000mm
+09:29:57.306 [I] FilmLoadProc(SetProcMsg)[12] : RollGapLeft Axis Movement : Cur:-5.000mm Move:-1.000mm
+09:29:57.542 [I] FilmLoadProc(SetProcMsg)[12] : RollGapRight Axis Movement Complete : Cur:-1.000mm Move:-1.000mm
+09:29:57.542 [I] FilmLoadProc(SetProcMsg)[12] : RollGapLeft Axis Movement Complete : Cur:-1.000mm Move:-1.000mm
+09:29:57.620 [I] FilmLoadProc(SetProcMsg)[12] : Ready Pos Move Enter
+09:29:57.620 [I] FilmLoadProc(SetProcMsg)[12] : StageX Axis Movement : Cur:605.000mm Move:285.000mm
+09:29:57.620 [I] FilmLoadProc(SetProcMsg)[12] : Demold Axis Movement : Cur:320.000mm Move:0.000mm
+09:29:57.620 [I] FilmLoadProc(SetProcMsg)[12] : Delay Time 50 msec
+09:30:04.771 [I] FilmLoadProc(SetProcMsg)[12] : StageX Axis Movement Complete : Cur:285.000mm Move:285.000mm
+09:30:04.772 [I] FilmLoadProc(SetProcMsg)[12] : Demold Axis Movement Complete : Cur:0.000mm Move:0.000mm
+09:30:04.850 [I] FilmLoadProc(SetProcMsg)[12] : Home Pos Move Enter
+09:30:04.851 [I] FilmLoadProc(SetProcMsg)[12] : StageX Axis Movement : Cur:285.000mm Move:0.000mm
+09:30:04.851 [I] FilmLoadProc(SetProcMsg)[12] : Demold Axis Movement : Cur:0.000mm Move:0.000mm Bypass
+09:30:10.463 [I] FilmLoadProc(SetProcMsg)[12] : StageX Axis Movement Complete : Cur:0.000mm Move:0.000mm
+09:30:10.775 [I] FilmLoadProc(SetProcMsg)[12] : ================= End Process =================

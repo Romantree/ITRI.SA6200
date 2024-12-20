@@ -1,0 +1,9 @@
+11:09:51.402 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.11.25.1 ============
+11:18:57.640 [E] NetManager(Start)[1] : The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetRequlator] => System.Exception: The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetRequlator]
+   위치: GIGA.ITRI.SA6200.UI.Managers.NetManager.Start(INetSerialPort net, NetworkUnit unit) 파일 C:\000.Source\GIGA.ITRI.SA6200\GIGA.ITRI.SA6200.UI\Managers\NetManager.cs:줄 66
+11:20:37.423 [I] DeviceManager(SetRollPressScale)[1] : Roll Gap Press Scale : 0.05 = 0.02
+11:20:37.917 [I] DeviceManager(SetDemoldScale)[1] : Demold Scale : 0 = 0.001
+11:24:54.531 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.11.25.1 ============
+11:49:23.083 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.11.25.1 ============
+11:50:29.164 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.11.25.1 ============
+11:53:58.536 [I] MainViewModel(MainWindow_Loaded)[1] : ========== Program Start v 24.11.25.1 ============

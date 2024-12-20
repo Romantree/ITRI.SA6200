@@ -1,0 +1,15 @@
+17:01:35.530 [I] EventManager(Event_OnInterlockMsgEvent)[1] : The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell] => System.Exception: The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell]
+   위치: GIGA.ITRI.SA6200.UI.Managers.NetManager.Start(INetSerialPort net, NetworkUnit unit) 파일 C:\000.Source\GIGA.ITRI.SA6200\GIGA.ITRI.SA6200.UI\Managers\NetManager.cs:줄 66
+17:08:31.711 [I] EventManager(Event_OnInterlockMsgEvent)[1] : The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell] => System.Exception: The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell]
+   위치: GIGA.ITRI.SA6200.UI.Managers.NetManager.Start(INetSerialPort net, NetworkUnit unit) 파일 C:\000.Source\GIGA.ITRI.SA6200\GIGA.ITRI.SA6200.UI\Managers\NetManager.cs:줄 66
+17:08:41.915 [I] EventManager(Event_OnInterlockMsgEvent)[1] : The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell] => System.Exception: The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell]
+   위치: GIGA.ITRI.SA6200.UI.Managers.NetManager.Start(INetSerialPort net, NetworkUnit unit) 파일 C:\000.Source\GIGA.ITRI.SA6200\GIGA.ITRI.SA6200.UI\Managers\NetManager.cs:줄 66
+17:08:43.508 [I] EventManager(Event_OnInterlockMsgEvent)[1] : The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell] => System.Exception: The port is null.[GIGA.ITRI.SA6200.UI.Managers.Net.NetLoadcell]
+   위치: GIGA.ITRI.SA6200.UI.Managers.NetManager.Start(INetSerialPort net, NetworkUnit unit) 파일 C:\000.Source\GIGA.ITRI.SA6200\GIGA.ITRI.SA6200.UI\Managers\NetManager.cs:줄 66
+17:26:34.399 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the initialization operation?
+17:26:42.052 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+17:26:56.459 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the home operation?
+17:27:28.530 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : The stage in not the ready position.
+ Would you like to perform the home operation?
+17:31:28.386 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the ready operation?
+17:53:36.197 [I] MainViewModel(Event_OnInterlockCheckEvent)[1] : Would you like to perform the home operation?

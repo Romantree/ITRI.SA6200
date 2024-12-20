@@ -1,0 +1,53 @@
+10:34:29.189 [I] InitProc(SetProcMsg)[16] : ================= Start Process =================
+10:34:30.707 [I] InitProc(SetProcMsg)[16] : Regulator [L:30%] [R:30%] Enter
+10:34:30.856 [I] InitProc(SetProcMsg)[16] : Regulator [L:30%] [R:30%]
+10:34:31.053 [I] InitProc(SetProcMsg)[16] : ROLL GAP UP Enter
+10:34:31.187 [I] InitProc(SetProcMsg)[16] : ROLL GAP UP
+10:34:31.342 [I] InitProc(SetProcMsg)[16] : UV CYLINDER UP Enter
+10:34:31.848 [I] InitProc(SetProcMsg)[16] : UV CYLINDER UP
+10:34:31.957 [I] InitProc(SetProcMsg)[16] : LIFT PIN DOWN Enter
+10:34:32.052 [I] InitProc(SetProcMsg)[16] : LIFT PIN DOWN
+10:34:32.140 [I] InitProc(SetProcMsg)[16] : FILM CLAMP DOWN Enter
+10:34:32.255 [I] InitProc(SetProcMsg)[16] : FILM CLAMP DOWN
+10:34:32.342 [I] InitProc(SetProcMsg)[16] : ROLL CLAMP DOWN Enter
+10:34:32.449 [I] InitProc(SetProcMsg)[16] : ROLL CLAMP DOWN
+10:34:32.791 [I] InitProc(SetProcMsg)[16] : Motion Home Enter (StageX, RollGapRight, RollGapLeft, Demold)
+10:34:33.835 [I] InitProc(SetProcMsg)[16] : Motion Home (StageX, RollGapRight, RollGapLeft, Demold)
+10:34:33.896 [I] InitProc(SetProcMsg)[16] : Motion Software Limit Enter
+10:34:34.018 [I] InitProc(SetProcMsg)[16] : ================= End Process =================
+10:36:30.301 [I] InitProc(SetProcMsg)[22] : ================= Start Process =================
+10:36:31.341 [I] InitProc(SetProcMsg)[22] : ROLL GAP UP Enter
+10:36:31.434 [I] InitProc(SetProcMsg)[22] : ROLL GAP UP
+10:36:32.801 [I] InitProc(SetProcMsg)[22] : Motion Home Enter (StageX, RollGapRight, RollGapLeft, Demold)
+10:36:33.841 [I] InitProc(SetProcMsg)[22] : Motion Home (StageX, RollGapRight, RollGapLeft, Demold)
+10:36:33.902 [I] InitProc(SetProcMsg)[22] : Motion Software Limit Enter
+10:36:34.023 [I] InitProc(SetProcMsg)[22] : ================= End Process =================
+10:37:33.445 [I] InitProc(SetProcMsg)[25] : ================= Start Process =================
+10:37:33.812 [I] InitProc(SetProcMsg)[25] : ROLL GAP UP Enter
+10:37:33.900 [I] InitProc(SetProcMsg)[25] : ROLL GAP UP
+10:37:35.319 [I] InitProc(SetProcMsg)[25] : Motion Home Enter (StageX, RollGapRight, RollGapLeft, Demold)
+10:37:36.356 [I] InitProc(SetProcMsg)[25] : Motion Home (StageX, RollGapRight, RollGapLeft, Demold)
+10:37:36.418 [I] InitProc(SetProcMsg)[25] : Motion Software Limit Enter
+10:37:36.540 [I] InitProc(SetProcMsg)[25] : ================= End Process =================
+10:38:38.395 [I] InitProc(SetProcMsg)[18] : ================= Start Process =================
+10:38:40.045 [I] InitProc(SetProcMsg)[18] : Motion Home Enter (StageX, RollGapRight, RollGapLeft, Demold)
+10:38:41.085 [I] InitProc(SetProcMsg)[18] : Motion Home (StageX, RollGapRight, RollGapLeft, Demold)
+10:38:41.145 [I] InitProc(SetProcMsg)[18] : Motion Software Limit Enter
+10:38:41.268 [I] InitProc(SetProcMsg)[18] : ================= End Process =================
+10:56:27.668 [I] InitProc(SetProcMsg)[18] : ================= Start Process =================
+10:56:28.915 [I] InitProc(SetProcMsg)[18] : Regulator [L:30%] [R:30%] Enter
+10:56:29.091 [I] InitProc(SetProcMsg)[18] : Regulator [L:30%] [R:30%]
+10:56:29.616 [I] InitProc(SetProcMsg)[18] : ROLL GAP UP Enter
+10:56:29.965 [I] InitProc(SetProcMsg)[18] : ROLL GAP UP
+10:56:30.219 [I] InitProc(SetProcMsg)[18] : UV CYLINDER UP Enter
+10:56:30.435 [I] InitProc(SetProcMsg)[18] : UV CYLINDER UP
+10:56:30.674 [I] InitProc(SetProcMsg)[18] : LIFT PIN DOWN Enter
+10:56:30.942 [I] InitProc(SetProcMsg)[18] : LIFT PIN DOWN
+10:56:31.155 [I] InitProc(SetProcMsg)[18] : FILM CLAMP DOWN Enter
+10:56:31.377 [I] InitProc(SetProcMsg)[18] : FILM CLAMP DOWN
+10:56:31.590 [I] InitProc(SetProcMsg)[18] : ROLL CLAMP DOWN Enter
+10:56:31.785 [I] InitProc(SetProcMsg)[18] : ROLL CLAMP DOWN
+10:56:33.405 [I] InitProc(SetProcMsg)[18] : Motion Home Enter (StageX, RollGapRight, RollGapLeft, Demold)
+10:56:34.914 [I] InitProc(SetProcMsg)[18] : Motion Home (StageX, RollGapRight, RollGapLeft, Demold)
+10:56:34.975 [I] InitProc(SetProcMsg)[18] : Motion Software Limit Enter
+10:56:35.099 [I] InitProc(SetProcMsg)[18] : ================= End Process =================

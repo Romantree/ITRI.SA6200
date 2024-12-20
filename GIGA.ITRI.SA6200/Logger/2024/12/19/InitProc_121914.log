@@ -1,0 +1,5 @@
+14:16:31.426 [I] InitProc(SetProcMsg)[16] : ================= Start Process =================
+14:16:32.216 [I] InitProc(SetProcMsg)[16] : Motion Home Enter (StageX, RollGapRight, RollGapLeft, Demold)
+14:16:34.121 [I] InitProc(SetProcMsg)[16] : Motion Home (StageX, RollGapRight, RollGapLeft, Demold)
+14:16:34.183 [I] InitProc(SetProcMsg)[16] : Motion Software Limit Enter
+14:16:34.306 [I] InitProc(SetProcMsg)[16] : ================= End Process =================
